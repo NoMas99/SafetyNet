@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class MenuSpelling
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuSpelling))
         Me.cmdOK = New System.Windows.Forms.Button()
         Me.tmrStella = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -61,6 +61,7 @@ Partial Class Form2
         '
         'picStell
         '
+        Me.picStell.Image = Global.WindowsApplication1.My.Resources.Resources.Stel
         Me.picStell.Location = New System.Drawing.Point(238, 34)
         Me.picStell.Name = "picStell"
         Me.picStell.Size = New System.Drawing.Size(221, 264)

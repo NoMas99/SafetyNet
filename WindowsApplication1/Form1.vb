@@ -114,7 +114,7 @@
         Dim newButton2 As Button
         Dim vWhatCover As String
         Dim vRanNum As Integer
-        Const cSoundPath As String = "C:\AJI\GamePhotos\"
+        ' Const cSoundPath As String = "C:\AJI\GamePhotos\"
 
         newButton = New Button
         newButton.Size = New Drawing.Size(270, 344)  'standard button size

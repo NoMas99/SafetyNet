@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class MenuSpelling
     Private Sub cmdOK_Click(sender As Object, e As EventArgs) Handles cmdOK.Click
         ' Me.Hide()
         'ActiveForm
