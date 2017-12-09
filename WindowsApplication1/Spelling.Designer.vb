@@ -57,22 +57,22 @@ Partial Class SpellingGame
         Me.Button6 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.tmrAnimation = New System.Windows.Forms.Timer(Me.components)
-        Me.picBird = New System.Windows.Forms.PictureBox()
-        Me.picBird2 = New System.Windows.Forms.PictureBox()
-        Me.picBird3 = New System.Windows.Forms.PictureBox()
-        Me.picBird4 = New System.Windows.Forms.PictureBox()
-        Me.picBird5 = New System.Windows.Forms.PictureBox()
-        Me.picBird6 = New System.Windows.Forms.PictureBox()
-        Me.picBird7 = New System.Windows.Forms.PictureBox()
         Me.picBird8 = New System.Windows.Forms.PictureBox()
-        CType(Me.picBird, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picBird7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.picBird7 = New System.Windows.Forms.PictureBox()
+        Me.picBird6 = New System.Windows.Forms.PictureBox()
+        Me.picBird5 = New System.Windows.Forms.PictureBox()
+        Me.picBird4 = New System.Windows.Forms.PictureBox()
+        Me.picBird3 = New System.Windows.Forms.PictureBox()
+        Me.picBird2 = New System.Windows.Forms.PictureBox()
+        Me.picBird = New System.Windows.Forms.PictureBox()
         CType(Me.picBird8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBird, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -669,71 +669,16 @@ Partial Class SpellingGame
         '
         Me.tmrAnimation.Interval = 50
         '
-        'picBird
+        'picBird8
         '
-        Me.picBird.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird.Location = New System.Drawing.Point(56, 243)
-        Me.picBird.Name = "picBird"
-        Me.picBird.Size = New System.Drawing.Size(225, 181)
-        Me.picBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird.TabIndex = 37
-        Me.picBird.TabStop = False
-        Me.picBird.Visible = False
-        '
-        'picBird2
-        '
-        Me.picBird2.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird2.Location = New System.Drawing.Point(106, 466)
-        Me.picBird2.Name = "picBird2"
-        Me.picBird2.Size = New System.Drawing.Size(150, 125)
-        Me.picBird2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird2.TabIndex = 38
-        Me.picBird2.TabStop = False
-        Me.picBird2.Visible = False
-        '
-        'picBird3
-        '
-        Me.picBird3.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird3.Location = New System.Drawing.Point(445, 216)
-        Me.picBird3.Name = "picBird3"
-        Me.picBird3.Size = New System.Drawing.Size(115, 125)
-        Me.picBird3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird3.TabIndex = 39
-        Me.picBird3.TabStop = False
-        Me.picBird3.Visible = False
-        '
-        'picBird4
-        '
-        Me.picBird4.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird4.Location = New System.Drawing.Point(776, 466)
-        Me.picBird4.Name = "picBird4"
-        Me.picBird4.Size = New System.Drawing.Size(115, 125)
-        Me.picBird4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird4.TabIndex = 40
-        Me.picBird4.TabStop = False
-        Me.picBird4.Visible = False
-        '
-        'picBird5
-        '
-        Me.picBird5.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird5.Location = New System.Drawing.Point(886, 466)
-        Me.picBird5.Name = "picBird5"
-        Me.picBird5.Size = New System.Drawing.Size(115, 125)
-        Me.picBird5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird5.TabIndex = 41
-        Me.picBird5.TabStop = False
-        Me.picBird5.Visible = False
-        '
-        'picBird6
-        '
-        Me.picBird6.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird6.Location = New System.Drawing.Point(994, 466)
-        Me.picBird6.Name = "picBird6"
-        Me.picBird6.Size = New System.Drawing.Size(115, 125)
-        Me.picBird6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird6.TabIndex = 42
-        Me.picBird6.TabStop = False
-        Me.picBird6.Visible = False
+        Me.picBird8.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird8.Location = New System.Drawing.Point(1214, 466)
+        Me.picBird8.Name = "picBird8"
+        Me.picBird8.Size = New System.Drawing.Size(115, 125)
+        Me.picBird8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird8.TabIndex = 44
+        Me.picBird8.TabStop = False
+        Me.picBird8.Visible = False
         '
         'picBird7
         '
@@ -746,16 +691,71 @@ Partial Class SpellingGame
         Me.picBird7.TabStop = False
         Me.picBird7.Visible = False
         '
-        'picBird8
+        'picBird6
         '
-        Me.picBird8.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird8.Location = New System.Drawing.Point(1214, 466)
-        Me.picBird8.Name = "picBird8"
-        Me.picBird8.Size = New System.Drawing.Size(115, 125)
-        Me.picBird8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBird8.TabIndex = 44
-        Me.picBird8.TabStop = False
-        Me.picBird8.Visible = False
+        Me.picBird6.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird6.Location = New System.Drawing.Point(994, 466)
+        Me.picBird6.Name = "picBird6"
+        Me.picBird6.Size = New System.Drawing.Size(115, 125)
+        Me.picBird6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird6.TabIndex = 42
+        Me.picBird6.TabStop = False
+        Me.picBird6.Visible = False
+        '
+        'picBird5
+        '
+        Me.picBird5.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird5.Location = New System.Drawing.Point(886, 466)
+        Me.picBird5.Name = "picBird5"
+        Me.picBird5.Size = New System.Drawing.Size(115, 125)
+        Me.picBird5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird5.TabIndex = 41
+        Me.picBird5.TabStop = False
+        Me.picBird5.Visible = False
+        '
+        'picBird4
+        '
+        Me.picBird4.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird4.Location = New System.Drawing.Point(776, 466)
+        Me.picBird4.Name = "picBird4"
+        Me.picBird4.Size = New System.Drawing.Size(115, 125)
+        Me.picBird4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird4.TabIndex = 40
+        Me.picBird4.TabStop = False
+        Me.picBird4.Visible = False
+        '
+        'picBird3
+        '
+        Me.picBird3.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird3.Location = New System.Drawing.Point(389, 466)
+        Me.picBird3.Name = "picBird3"
+        Me.picBird3.Size = New System.Drawing.Size(115, 125)
+        Me.picBird3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird3.TabIndex = 39
+        Me.picBird3.TabStop = False
+        Me.picBird3.Visible = False
+        '
+        'picBird2
+        '
+        Me.picBird2.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird2.Location = New System.Drawing.Point(106, 466)
+        Me.picBird2.Name = "picBird2"
+        Me.picBird2.Size = New System.Drawing.Size(150, 125)
+        Me.picBird2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird2.TabIndex = 38
+        Me.picBird2.TabStop = False
+        Me.picBird2.Visible = False
+        '
+        'picBird
+        '
+        Me.picBird.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
+        Me.picBird.Location = New System.Drawing.Point(186, 244)
+        Me.picBird.Name = "picBird"
+        Me.picBird.Size = New System.Drawing.Size(225, 181)
+        Me.picBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBird.TabIndex = 37
+        Me.picBird.TabStop = False
+        Me.picBird.Visible = False
         '
         'SpellingGame
         '
@@ -805,14 +805,14 @@ Partial Class SpellingGame
         Me.Controls.Add(Me.Button6)
         Me.Name = "SpellingGame"
         Me.Text = "Spelling Game"
-        CType(Me.picBird, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picBird7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBird8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBird, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
