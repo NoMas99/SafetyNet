@@ -1,10 +1,21 @@
 ﻿Public Class MenuSpelling
-    Private Sub cmdOK_Click(sender As Object, e As EventArgs) Handles cmdOK.Click
-        ' Me.Hide()
-        'ActiveForm
+    Private Sub CmdOK_Click(sender As Object, e As EventArgs) Handles cmdOK.Click
+        Me.Hide()
+        'Me.TextBox1.Text = "Stella"
+        'SpellingGame.Activate()
+    End Sub
+    Private Sub CmdStella_Click(sender As Object, e As EventArgs) Handles picStell.Click
+        Me.Hide()
+        Me.TextBox1.Text = "Stella"
+        SpellingGame.Activate()
+    End Sub
+    Private Sub CmdCat_Click(sender As Object, e As EventArgs) Handles picCat.Click
+        Me.Hide()
+        Me.TextBox1.Text = "Cat"
+        FreshSpell.Show()
     End Sub
     Dim vCount As Integer = 1
-    Private Sub tmrStella_Tick(sender As Object, e As EventArgs) Handles tmrStella.Tick
+    Private Sub TmrStella_Tick(sender As Object, e As EventArgs) Handles tmrStella.Tick
         ' Dim vCount As Integer
         'Dim vSize As Size
         'Select Case vCount

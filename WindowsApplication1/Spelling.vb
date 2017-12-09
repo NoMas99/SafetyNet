@@ -7,7 +7,7 @@ Public Class SpellingGame
     Dim xrayEmptySpots(5) As Point
     Dim xrayFlyBirds(1) As PictureBox
     Dim xrayStayBirds(5) As PictureBox
-    Dim xrayStaySpots(5) As Point
+    'Dim xrayStaySpots(5) As Point
     Dim xrayLittleLetters(25) As Button
     Dim xrayBigLetters(5) As Button
     Dim dikLittleLetters As New Dictionary(Of String, Button)
@@ -41,8 +41,19 @@ Public Class SpellingGame
         xrayFlyBirds = {picBird, picBird2}
         ' xrayStayBirds = {picBird3, picBird4, picBird5, picBird6, picBird7, picBird8}
 
+        Select Case MenuSpelling.TextBox1.Text
+            Case "Stella"
+                vWord = "Stella"
+            Case "Cat"
+                vWord = "Cat"
+            Case "Dog"
+                vWord = "Dog"
+            Case "Stop"
+                vWord = "Stop"
+            Case Else
+                vWord = InputBox("Enter up to 6 letter word:  ", "Let's Get This Thing Started")
+        End Select
 
-        vWord = InputBox("Enter up to 6 letter word:  ", "Let's Get This Thing Started")
         vCount = Len(vWord)
         For i = 0 To vCount - 1
             arrWord(i) = UCase(Mid(vWord, i + 1, 1))
@@ -274,17 +285,19 @@ Public Class SpellingGame
     Sub Winner()
 
         Dim i As Integer = 1
+        'xrayStayBirds(0).Location = picBird3.Location
+        'xrayStayBirds(0).Location = xrayEmptySpots(0)
 
-        For i = 0 To vCount - 1
-            While i < vCount
-                xrayStayBirds(i).Location = xrayEmptySpots(i)
-                xrayStayBirds(i).Visible = True
-                i = i + 1
-            End While
-        Next
-        For Each element In xrayStayBirds
-            element.Refresh()
-        Next
+        'For i = 0 To vCount - 1
+        '    While i < vCount
+        '        xrayStayBirds(i).Location = xrayEmptySpots(i)
+        '        xrayStayBirds(i).Visible = True
+        '        i = i + 1
+        '    End While
+        'Next
+        'For Each element In xrayStayBirds
+        '    element.Refresh()
+        'Next
 
         Select Case vWord
             Case "cat"
@@ -311,9 +324,9 @@ Public Class SpellingGame
                 End If
             End If
         Next
-        For Each element In xrayStayBirds
-            element.Visible = False
-        Next
+        'For Each element In xrayStayBirds
+        '    element.Visible = False
+        'Next
 
 
         'picBird3.Visible = False

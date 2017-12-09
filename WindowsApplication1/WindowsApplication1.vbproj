@@ -26,7 +26,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/WindowsApplication1/</UpdateUrl>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationRevision>10</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -115,6 +115,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FreshSpell.Designer.vb">
+      <DependentUpon>FreshSpell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FreshSpell.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuSpelling.Designer.vb">
       <DependentUpon>MenuSpelling.vb</DependentUpon>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreshSpell.resx">
+      <DependentUpon>FreshSpell.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuSpelling.resx">
       <DependentUpon>MenuSpelling.vb</DependentUpon>

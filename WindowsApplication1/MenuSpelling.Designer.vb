@@ -26,10 +26,11 @@ Partial Class MenuSpelling
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuSpelling))
         Me.cmdOK = New System.Windows.Forms.Button()
         Me.tmrStella = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picCat = New System.Windows.Forms.PictureBox()
         Me.picStell = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        CType(Me.picCat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -49,15 +50,15 @@ Partial Class MenuSpelling
         '
         Me.tmrStella.Interval = 1000
         '
-        'PictureBox1
+        'picCat
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(499, 34)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(221, 167)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
+        Me.picCat.Image = CType(resources.GetObject("picCat.Image"), System.Drawing.Image)
+        Me.picCat.Location = New System.Drawing.Point(499, 34)
+        Me.picCat.Name = "picCat"
+        Me.picCat.Size = New System.Drawing.Size(221, 167)
+        Me.picCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picCat.TabIndex = 2
+        Me.picCat.TabStop = False
         '
         'picStell
         '
@@ -79,29 +80,40 @@ Partial Class MenuSpelling
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
         '
-        'Form2
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(329, 477)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(179, 20)
+        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.Visible = False
+        '
+        'MenuSpelling
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1100, 578)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picCat)
         Me.Controls.Add(Me.picStell)
         Me.Controls.Add(Me.cmdOK)
         Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.Name = "Form2"
+        Me.Name = "MenuSpelling"
         Me.Text = "Stella Title"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picCat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents cmdOK As Button
     Friend WithEvents picStell As PictureBox
     Friend WithEvents tmrStella As Timer
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents picCat As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents TextBox1 As TextBox
 End Class
