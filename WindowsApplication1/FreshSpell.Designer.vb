@@ -726,7 +726,7 @@ Partial Class FreshSpell
         'picBird3
         '
         Me.picBird3.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird3.Location = New System.Drawing.Point(390, 491)
+        Me.picBird3.Location = New System.Drawing.Point(4, 360)
         Me.picBird3.Name = "picBird3"
         Me.picBird3.Size = New System.Drawing.Size(115, 125)
         Me.picBird3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -737,7 +737,7 @@ Partial Class FreshSpell
         'picBird2
         '
         Me.picBird2.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird2.Location = New System.Drawing.Point(107, 491)
+        Me.picBird2.Location = New System.Drawing.Point(26, 491)
         Me.picBird2.Name = "picBird2"
         Me.picBird2.Size = New System.Drawing.Size(150, 125)
         Me.picBird2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -748,7 +748,7 @@ Partial Class FreshSpell
         'picBird
         '
         Me.picBird.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird.Location = New System.Drawing.Point(212, 435)
+        Me.picBird.Location = New System.Drawing.Point(159, 348)
         Me.picBird.Name = "picBird"
         Me.picBird.Size = New System.Drawing.Size(225, 181)
         Me.picBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

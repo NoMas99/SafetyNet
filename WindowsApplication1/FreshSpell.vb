@@ -48,6 +48,8 @@
                 vWord = "dog"
             Case "stop"
                 vWord = "stop"
+            Case "blue"
+                vWord = "blue"
             Case Else
                 vWord = InputBox("Enter up to 6 letter word:  ", "Let's Get This Thing Started")
         End Select
@@ -330,6 +332,7 @@
         My.Computer.Audio.Play("C:\aaCode\YouAreTheWinner.wav")
         picBird.Visible = True
         picBird2.Visible = True
+        picBird3.Visible = True
         tmrAnimation.Start()
 
 
@@ -351,48 +354,64 @@
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
                 picBird2.Image = My.Resources.bird6
                 picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + 6)
+                picBird3.Image = My.Resources.bird6
+                picBird3.Location = New Point(picBird3.Location.X + 12, picBird3.Location.Y + 6)
                 birdCount += 1
             Case 2
                 picBird.Image = My.Resources.bird2
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
                 picBird2.Image = My.Resources.bird7
                 picBird2.Location = New Point(picBird2.Location.X + 21, picBird2.Location.Y + -14)
+                picBird3.Image = My.Resources.bird7
+                picBird3.Location = New Point(picBird3.Location.X + 20, picBird3.Location.Y + -14)
                 birdCount += 1
             Case 3
                 picBird.Image = My.Resources.bird3
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
                 picBird2.Image = My.Resources.bird8
                 picBird2.Location = New Point(picBird2.Location.X + 18, picBird2.Location.Y + 7)
+                picBird3.Image = My.Resources.bird8
+                picBird3.Location = New Point(picBird3.Location.X + 16, picBird3.Location.Y + 7)
                 birdCount += 1
             Case 4
                 picBird.Image = My.Resources.bird4
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
                 picBird2.Image = My.Resources.bird9
                 picBird2.Location = New Point(picBird2.Location.X + 24, picBird2.Location.Y + -9)
+                picBird3.Image = My.Resources.bird9
+                picBird3.Location = New Point(picBird3.Location.X + 20, picBird3.Location.Y + -9)
                 birdCount += 1
             Case 5
                 picBird.Image = My.Resources.bird5
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
                 picBird2.Image = My.Resources.bird10
                 picBird2.Location = New Point(picBird2.Location.X + 17, picBird2.Location.Y + 8)
+                picBird3.Image = My.Resources.bird10
+                picBird3.Location = New Point(picBird3.Location.X + 20, picBird3.Location.Y + 8)
                 birdCount += 1
             Case 6
                 picBird.Image = My.Resources.bird6
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
                 picBird2.Image = My.Resources.bird11
                 picBird2.Location = New Point(picBird2.Location.X + 22, picBird2.Location.Y + -10)
+                picBird3.Image = My.Resources.bird11
+                picBird3.Location = New Point(picBird3.Location.X + 23, picBird3.Location.Y + -10)
                 birdCount += 1
             Case 7
                 picBird.Image = My.Resources.bird7
                 picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
                 picBird2.Image = My.Resources.bird12
                 picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + 6)
+                picBird3.Image = My.Resources.bird12
+                picBird3.Location = New Point(picBird3.Location.X + 15, picBird3.Location.Y + 6)
                 birdCount += 1
             Case 8
                 picBird.Image = My.Resources.bird8
                 picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -11)
                 picBird2.Image = My.Resources.bird1
                 picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + -8)
+                picBird3.Image = My.Resources.bird1
+                picBird3.Location = New Point(picBird3.Location.X + 20, picBird3.Location.Y + -8)
                 birdCount += 1
             Case 9
                 picBird.Image = My.Resources.bird9
@@ -402,16 +421,19 @@
             Case 10
                 picBird.Image = My.Resources.bird10
                 picBird2.Image = My.Resources.bird3
+                picBird3.Image = My.Resources.bird5
                 birdCount += 1
                ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -3)
             Case 11
                 picBird.Image = My.Resources.bird11
                 picBird2.Image = My.Resources.bird4
+                picBird3.Image = My.Resources.bird6
                 birdCount += 1
                ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + 3)
             Case 12
                 picBird.Image = My.Resources.birdLast
                 picBird2.Image = My.Resources.bird5
+                picBird3.Image = My.Resources.bird7
                 birdCount = 1
                 ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -3)
 

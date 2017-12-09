@@ -19,6 +19,16 @@
         Me.TextBox1.Text = "dog"
         FreshSpell.Show()
     End Sub
+    Private Sub CmdStop_Click(sender As Object, e As EventArgs) Handles picDog.Click, picStop.Click
+        Me.Hide()
+        Me.TextBox1.Text = "stop"
+        FreshSpell.Show()
+    End Sub
+    Private Sub CmdBlue_Click(sender As Object, e As EventArgs) Handles picDog.Click, picOldBlue.Click
+        Me.Hide()
+        Me.TextBox1.Text = "blue"
+        FreshSpell.Show()
+    End Sub
     Dim vCount As Integer = 1
     Private Sub TmrStella_Tick(sender As Object, e As EventArgs) Handles tmrStella.Tick
         ' Dim vCount As Integer

@@ -27,13 +27,13 @@ Partial Class MenuSpelling
         Me.cmdOK = New System.Windows.Forms.Button()
         Me.tmrStella = New System.Windows.Forms.Timer(Me.components)
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picOldBlue = New System.Windows.Forms.PictureBox()
+        Me.picStop = New System.Windows.Forms.PictureBox()
         Me.picDog = New System.Windows.Forms.PictureBox()
         Me.picCat = New System.Windows.Forms.PictureBox()
         Me.picStell = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picOldBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picStop, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,25 +63,25 @@ Partial Class MenuSpelling
         Me.TextBox1.TabIndex = 4
         Me.TextBox1.Visible = False
         '
-        'PictureBox2
+        'picOldBlue
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(660, 102)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(179, 221)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 6
-        Me.PictureBox2.TabStop = False
+        Me.picOldBlue.Image = CType(resources.GetObject("picOldBlue.Image"), System.Drawing.Image)
+        Me.picOldBlue.Location = New System.Drawing.Point(660, 102)
+        Me.picOldBlue.Name = "picOldBlue"
+        Me.picOldBlue.Size = New System.Drawing.Size(179, 221)
+        Me.picOldBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picOldBlue.TabIndex = 6
+        Me.picOldBlue.TabStop = False
         '
-        'PictureBox1
+        'picStop
         '
-        Me.PictureBox1.Image = Global.WindowsApplication1.My.Resources.Resources.StopSign
-        Me.PictureBox1.Location = New System.Drawing.Point(100, 338)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(220, 215)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 5
-        Me.PictureBox1.TabStop = False
+        Me.picStop.Image = Global.WindowsApplication1.My.Resources.Resources.StopSign
+        Me.picStop.Location = New System.Drawing.Point(100, 338)
+        Me.picStop.Name = "picStop"
+        Me.picStop.Size = New System.Drawing.Size(220, 215)
+        Me.picStop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picStop.TabIndex = 5
+        Me.picStop.TabStop = False
         '
         'picDog
         '
@@ -118,9 +118,9 @@ Partial Class MenuSpelling
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(975, 635)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(975, 658)
+        Me.Controls.Add(Me.picOldBlue)
+        Me.Controls.Add(Me.picStop)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.picDog)
         Me.Controls.Add(Me.picCat)
@@ -129,8 +129,8 @@ Partial Class MenuSpelling
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MenuSpelling"
         Me.Text = "Spelling Bee"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picOldBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picStop, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picDog, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).EndInit()
@@ -145,6 +145,6 @@ Partial Class MenuSpelling
     Friend WithEvents picCat As PictureBox
     Friend WithEvents picDog As PictureBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picStop As PictureBox
+    Friend WithEvents picOldBlue As PictureBox
 End Class
