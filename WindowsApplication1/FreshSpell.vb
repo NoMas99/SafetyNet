@@ -311,6 +311,9 @@
             Case "stop"
                 My.Computer.Audio.Play("C:\aaCode\SpelledStop.wav")
                 Threading.Thread.Sleep(4000)
+            Case "blue"
+                My.Computer.Audio.Play("C:\aaCode\SpelledBlue.wav")
+                Threading.Thread.Sleep(4000)
         End Select
 
 
@@ -329,7 +332,7 @@
 
 
         'picBird3.Visible = False
-        My.Computer.Audio.Play("C:\aaCode\YouAreTheWinner.wav")
+        My.Computer.Audio.Play("C:\aaCode\ScareTheChickens.wav")
         picBird.Visible = True
         picBird2.Visible = True
         picBird3.Visible = True
@@ -444,7 +447,7 @@
 
     Public Sub PlayWav(fLetter As String)
         Dim vWav As String
-        vWav = "C:\aaCode\FindThe" & fLetter & ".Wav"
+        vWav = "C:\aaCode\F" & UCase(fLetter) & ".Wav"
         My.Computer.Audio.Play(vWav)
 
     End Sub
