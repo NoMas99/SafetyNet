@@ -26,7 +26,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/WindowsApplication1/</UpdateUrl>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -127,12 +127,6 @@
     <Compile Include="MenuSpelling.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Spelling.Designer.vb">
-      <DependentUpon>Spelling.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Spelling.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -174,9 +168,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuSpelling.resx">
       <DependentUpon>MenuSpelling.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Spelling.resx">
-      <DependentUpon>Spelling.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

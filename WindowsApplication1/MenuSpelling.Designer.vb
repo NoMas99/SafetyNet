@@ -28,11 +28,11 @@ Partial Class MenuSpelling
         Me.tmrStella = New System.Windows.Forms.Timer(Me.components)
         Me.picCat = New System.Windows.Forms.PictureBox()
         Me.picStell = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.picDog = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'cmdOK
@@ -70,15 +70,15 @@ Partial Class MenuSpelling
         Me.picStell.TabIndex = 1
         Me.picStell.TabStop = False
         '
-        'PictureBox2
+        'picDog
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(499, 229)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(277, 183)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 3
-        Me.PictureBox2.TabStop = False
+        Me.picDog.Image = CType(resources.GetObject("picDog.Image"), System.Drawing.Image)
+        Me.picDog.Location = New System.Drawing.Point(499, 229)
+        Me.picDog.Name = "picDog"
+        Me.picDog.Size = New System.Drawing.Size(277, 183)
+        Me.picDog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDog.TabIndex = 3
+        Me.picDog.TabStop = False
         '
         'TextBox1
         '
@@ -95,7 +95,7 @@ Partial Class MenuSpelling
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1100, 578)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.picDog)
         Me.Controls.Add(Me.picCat)
         Me.Controls.Add(Me.picStell)
         Me.Controls.Add(Me.cmdOK)
@@ -104,7 +104,7 @@ Partial Class MenuSpelling
         Me.Text = "Stella Title"
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDog, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -114,6 +114,6 @@ Partial Class MenuSpelling
     Friend WithEvents picStell As PictureBox
     Friend WithEvents tmrStella As Timer
     Friend WithEvents picCat As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents picDog As PictureBox
     Friend WithEvents TextBox1 As TextBox
 End Class

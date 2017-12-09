@@ -6,12 +6,17 @@
     End Sub
     Private Sub CmdStella_Click(sender As Object, e As EventArgs) Handles picStell.Click
         Me.Hide()
-        Me.TextBox1.Text = "Stella"
-        SpellingGame.Activate()
+        Me.TextBox1.Text = "stella"
+        FreshSpell.Show()
     End Sub
     Private Sub CmdCat_Click(sender As Object, e As EventArgs) Handles picCat.Click
         Me.Hide()
-        Me.TextBox1.Text = "Cat"
+        Me.TextBox1.Text = "cat"
+        FreshSpell.Show()
+    End Sub
+    Private Sub CmdDog_Click(sender As Object, e As EventArgs) Handles picDog.Click, picDog.Click
+        Me.Hide()
+        Me.TextBox1.Text = "dog"
         FreshSpell.Show()
     End Sub
     Dim vCount As Integer = 1

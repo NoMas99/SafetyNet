@@ -11,8 +11,8 @@
     Dim dikLittleLetters As New Dictionary(Of String, Button)
 
 
-    Public Sub SpellingGame_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    'Public Sub SpellingGame_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Public Sub freshspell_Load(sender As Object, e As EventArgs) Handles Me.Load
 
 
         Dim i As Integer
@@ -40,14 +40,14 @@
         ' xrayStayBirds = {picBird3, picBird4, picBird5, picBird6, picBird7, picBird8}
 
         Select Case MenuSpelling.TextBox1.Text
-            Case "Stella"
-                vWord = "Stella"
-            Case "Cat"
-                vWord = "Cat"
-            Case "Dog"
-                vWord = "Dog"
-            Case "Stop"
-                vWord = "Stop"
+            Case "stella"
+                vWord = "stella"
+            Case "cat"
+                vWord = "cat"
+            Case "dog"
+                vWord = "dog"
+            Case "stop"
+                vWord = "stop"
             Case Else
                 vWord = InputBox("Enter up to 6 letter word:  ", "Let's Get This Thing Started")
         End Select
@@ -131,7 +131,7 @@
             Next
         End While
 
-        My.Forms.SpellingGame.Show()
+        My.Forms.FreshSpell.Show()
         PlayWav(Button1.Text)
 
     End Sub
@@ -282,9 +282,8 @@
     End Sub
     Sub Winner()
 
-        Dim i As Integer = 1
-        'xrayStayBirds(0).Location = picBird3.Location
-        'xrayStayBirds(0).Location = xrayEmptySpots(0)
+        'Dim i As Integer = 1
+
 
         'For i = 0 To vCount - 1
         '    While i < vCount
@@ -337,7 +336,88 @@
     End Sub
     Dim birdCount As Integer = 1
     Private Sub tmrAnimation_Tick(sender As Object, e As EventArgs) Handles tmrAnimation.Tick
+        Dim xB1 As Integer = 20
+        Dim xB2 As Integer = 21
+        Dim yB1 As Integer = 8
+        Dim yB2 As Integer = 6
+        Dim xB11 As Integer = 18
+        Dim xB22 As Integer = 20
+        Dim yB11 As Integer = -14
+        Dim yB22 As Integer = -11
 
+        Select Case birdCount
+            Case 1
+                picBird.Image = My.Resources.bird1
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
+                picBird2.Image = My.Resources.bird6
+                picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + 6)
+                birdCount += 1
+            Case 2
+                picBird.Image = My.Resources.bird2
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
+                picBird2.Image = My.Resources.bird7
+                picBird2.Location = New Point(picBird2.Location.X + 21, picBird2.Location.Y + -14)
+                birdCount += 1
+            Case 3
+                picBird.Image = My.Resources.bird3
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
+                picBird2.Image = My.Resources.bird8
+                picBird2.Location = New Point(picBird2.Location.X + 18, picBird2.Location.Y + 7)
+                birdCount += 1
+            Case 4
+                picBird.Image = My.Resources.bird4
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
+                picBird2.Image = My.Resources.bird9
+                picBird2.Location = New Point(picBird2.Location.X + 24, picBird2.Location.Y + -9)
+                birdCount += 1
+            Case 5
+                picBird.Image = My.Resources.bird5
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
+                picBird2.Image = My.Resources.bird10
+                picBird2.Location = New Point(picBird2.Location.X + 17, picBird2.Location.Y + 8)
+                birdCount += 1
+            Case 6
+                picBird.Image = My.Resources.bird6
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
+                picBird2.Image = My.Resources.bird11
+                picBird2.Location = New Point(picBird2.Location.X + 22, picBird2.Location.Y + -10)
+                birdCount += 1
+            Case 7
+                picBird.Image = My.Resources.bird7
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + 8)
+                picBird2.Image = My.Resources.bird12
+                picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + 6)
+                birdCount += 1
+            Case 8
+                picBird.Image = My.Resources.bird8
+                picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -11)
+                picBird2.Image = My.Resources.bird1
+                picBird2.Location = New Point(picBird2.Location.X + 15, picBird2.Location.Y + -8)
+                birdCount += 1
+            Case 9
+                picBird.Image = My.Resources.bird9
+                picBird2.Image = My.Resources.bird2
+                birdCount += 1
+               ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + 3)
+            Case 10
+                picBird.Image = My.Resources.bird10
+                picBird2.Image = My.Resources.bird3
+                birdCount += 1
+               ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -3)
+            Case 11
+                picBird.Image = My.Resources.bird11
+                picBird2.Image = My.Resources.bird4
+                birdCount += 1
+               ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + 3)
+            Case 12
+                picBird.Image = My.Resources.birdLast
+                picBird2.Image = My.Resources.bird5
+                birdCount = 1
+                ' picBird.Location = New Point(picBird.Location.X + 15, picBird.Location.Y + -3)
+
+
+
+        End Select
     End Sub
 
     Public Sub PlayWav(fLetter As String)
