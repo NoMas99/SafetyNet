@@ -26,34 +26,77 @@ Partial Class MenuSpelling
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuSpelling))
         Me.cmdOK = New System.Windows.Forms.Button()
         Me.tmrStella = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picDog = New System.Windows.Forms.PictureBox()
         Me.picCat = New System.Windows.Forms.PictureBox()
         Me.picStell = New System.Windows.Forms.PictureBox()
-        Me.picDog = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'cmdOK
         '
         Me.cmdOK.Font = New System.Drawing.Font("Calibri", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdOK.Location = New System.Drawing.Point(40, 76)
+        Me.cmdOK.Location = New System.Drawing.Point(50, 526)
         Me.cmdOK.Margin = New System.Windows.Forms.Padding(2)
         Me.cmdOK.Name = "cmdOK"
         Me.cmdOK.Size = New System.Drawing.Size(122, 112)
         Me.cmdOK.TabIndex = 0
         Me.cmdOK.Text = "OK"
         Me.cmdOK.UseVisualStyleBackColor = True
+        Me.cmdOK.Visible = False
         '
         'tmrStella
         '
         Me.tmrStella.Interval = 1000
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(367, 585)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(179, 20)
+        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.Visible = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(660, 102)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(179, 221)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 6
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.WindowsApplication1.My.Resources.Resources.StopSign
+        Me.PictureBox1.Location = New System.Drawing.Point(100, 338)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(220, 215)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
+        '
+        'picDog
+        '
+        Me.picDog.Image = Global.WindowsApplication1.My.Resources.Resources.PuppyDog
+        Me.picDog.Location = New System.Drawing.Point(641, 370)
+        Me.picDog.Name = "picDog"
+        Me.picDog.Size = New System.Drawing.Size(220, 183)
+        Me.picDog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDog.TabIndex = 3
+        Me.picDog.TabStop = False
+        '
         'picCat
         '
-        Me.picCat.Image = CType(resources.GetObject("picCat.Image"), System.Drawing.Image)
-        Me.picCat.Location = New System.Drawing.Point(499, 34)
+        Me.picCat.Image = Global.WindowsApplication1.My.Resources.Resources.TabbyCat2
+        Me.picCat.Location = New System.Drawing.Point(100, 102)
         Me.picCat.Name = "picCat"
         Me.picCat.Size = New System.Drawing.Size(221, 167)
         Me.picCat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -62,38 +105,22 @@ Partial Class MenuSpelling
         '
         'picStell
         '
-        Me.picStell.Image = Global.WindowsApplication1.My.Resources.Resources.Stel
-        Me.picStell.Location = New System.Drawing.Point(238, 34)
+        Me.picStell.Image = Global.WindowsApplication1.My.Resources.Resources.Stella2
+        Me.picStell.Location = New System.Drawing.Point(372, 161)
         Me.picStell.Name = "picStell"
-        Me.picStell.Size = New System.Drawing.Size(221, 264)
+        Me.picStell.Size = New System.Drawing.Size(221, 299)
         Me.picStell.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picStell.TabIndex = 1
         Me.picStell.TabStop = False
-        '
-        'picDog
-        '
-        Me.picDog.Image = CType(resources.GetObject("picDog.Image"), System.Drawing.Image)
-        Me.picDog.Location = New System.Drawing.Point(499, 229)
-        Me.picDog.Name = "picDog"
-        Me.picDog.Size = New System.Drawing.Size(277, 183)
-        Me.picDog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picDog.TabIndex = 3
-        Me.picDog.TabStop = False
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(329, 477)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(179, 20)
-        Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Visible = False
         '
         'MenuSpelling
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1100, 578)
+        Me.ClientSize = New System.Drawing.Size(975, 635)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.picDog)
         Me.Controls.Add(Me.picCat)
@@ -101,10 +128,12 @@ Partial Class MenuSpelling
         Me.Controls.Add(Me.cmdOK)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MenuSpelling"
-        Me.Text = "Stella Title"
+        Me.Text = "Spelling Bee"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDog, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picDog, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -116,4 +145,6 @@ Partial Class MenuSpelling
     Friend WithEvents picCat As PictureBox
     Friend WithEvents picDog As PictureBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
