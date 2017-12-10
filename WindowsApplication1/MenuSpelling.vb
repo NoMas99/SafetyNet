@@ -1,6 +1,6 @@
 ﻿Public Class MenuSpelling
     Private Sub CmdOK_Click(sender As Object, e As EventArgs) Handles cmdOK.Click
-        Me.Hide()
+        Me.Close()
         'Me.TextBox1.Text = "Stella"
         'SpellingGame.Activate()
     End Sub

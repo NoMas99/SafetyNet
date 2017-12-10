@@ -14,7 +14,7 @@
     Public Sub freshSpell_Load(sender As Object, e As EventArgs) Handles Me.Load
 
         Dim i As Integer
-        My.Forms.MenuSpelling.Close()
+        ' My.Forms.MenuSpelling.Close()
         Me.WindowState = FormWindowState.Maximized
 
 
@@ -337,10 +337,12 @@
         Dim yB11 As Integer = -14
         Dim yB22 As Integer = -11
         ProgressBar1.Value = ProgressBar1.Value + 1
-        If ProgressBar1.Value > 180 Then
+        If ProgressBar1.Value > 210 Then
             tmrAnimation.Enabled = False
             tmrAnimation.Stop()
-            ' My.Forms.FreshSpell.Close()
+            My.Forms.FreshSpell.Close()
+            My.Forms.MenuSpelling.ProgressBar1.Value = My.Forms.MenuSpelling.ProgressBar1.Value + 1
+            My.Forms.MenuSpelling.Show()
         End If
 
         Select Case birdCount
