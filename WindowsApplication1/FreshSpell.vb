@@ -6,6 +6,7 @@
     Dim xrayFlyBirds(1) As PictureBox
     Dim xrayStayBirds(5) As PictureBox
     'Dim xrayStaySpots(5) As Point
+    Dim xrayProgress(9) As TextBox
     Dim xrayLittleLetters(25) As Button
     Dim xrayBigLetters(5) As Button
     Dim dikLittleLetters As New Dictionary(Of String, Button)
@@ -33,6 +34,8 @@
 
         xrayFlyBirds = {picBird, picBird2}
         xrayBigLetters = {Button1, Button2, Button3, Button4, Button5, Button6}
+        xrayProgress = {My.Forms.MenuSpelling.TextBox13, My.Forms.MenuSpelling.TextBox14, My.Forms.MenuSpelling.TextBox15, My.Forms.MenuSpelling.TextBox16,
+        My.Forms.MenuSpelling.TextBox17, My.Forms.MenuSpelling.TextBox18, My.Forms.MenuSpelling.TextBox19, My.Forms.MenuSpelling.TextBox20, My.Forms.MenuSpelling.TextBox21, My.Forms.MenuSpelling.TextBox22}
         ' xrayStayBirds = {picBird3, picBird4, picBird5, picBird6, picBird7, picBird8}
 
         Select Case MenuSpelling.TextBox1.Text
@@ -341,8 +344,18 @@
             tmrAnimation.Enabled = False
             tmrAnimation.Stop()
             My.Forms.FreshSpell.Close()
-            My.Forms.MenuSpelling.ProgressBar1.Value = My.Forms.MenuSpelling.ProgressBar1.Value + 1
+            'My.Forms.MenuSpelling.ProgressBar1.Value = My.Forms.MenuSpelling.ProgressBar1.Value + 1
+            For Each box In xrayProgress
+                If box.Tag = "Off" Then
+                    box.Visible = True
+                    box.Tag = "On"
+                    Exit For
+                End If
+            Next
             My.Forms.MenuSpelling.Show()
+            If My.Forms.MenuSpelling.TextBox22.Tag = "On" Then
+                PlayWav("Surprise")
+            End If
         End If
 
         Select Case birdCount

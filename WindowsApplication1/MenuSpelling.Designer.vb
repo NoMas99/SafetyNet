@@ -44,6 +44,16 @@ Partial Class MenuSpelling
         Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
         CType(Me.picOldBlue, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStop, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -133,12 +143,13 @@ Partial Class MenuSpelling
         'ProgressBar1
         '
         Me.ProgressBar1.ForeColor = System.Drawing.Color.Red
-        Me.ProgressBar1.Location = New System.Drawing.Point(100, 680)
+        Me.ProgressBar1.Location = New System.Drawing.Point(100, 12)
         Me.ProgressBar1.Maximum = 10
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(761, 53)
         Me.ProgressBar1.Step = 1
         Me.ProgressBar1.TabIndex = 7
+        Me.ProgressBar1.Visible = False
         '
         'TextBox2
         '
@@ -258,12 +269,132 @@ Partial Class MenuSpelling
         Me.TextBox12.TabIndex = 18
         Me.TextBox12.Text = "10"
         '
+        'TextBox13
+        '
+        Me.TextBox13.BackColor = System.Drawing.Color.Violet
+        Me.TextBox13.Location = New System.Drawing.Point(100, 680)
+        Me.TextBox13.Multiline = True
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(73, 52)
+        Me.TextBox13.TabIndex = 19
+        Me.TextBox13.Tag = "Off"
+        Me.TextBox13.Visible = False
+        '
+        'TextBox14
+        '
+        Me.TextBox14.BackColor = System.Drawing.Color.Fuchsia
+        Me.TextBox14.Location = New System.Drawing.Point(170, 680)
+        Me.TextBox14.Multiline = True
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox14.TabIndex = 20
+        Me.TextBox14.Tag = "Off"
+        Me.TextBox14.Visible = False
+        '
+        'TextBox15
+        '
+        Me.TextBox15.BackColor = System.Drawing.Color.DarkViolet
+        Me.TextBox15.Location = New System.Drawing.Point(245, 680)
+        Me.TextBox15.Multiline = True
+        Me.TextBox15.Name = "TextBox15"
+        Me.TextBox15.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox15.TabIndex = 21
+        Me.TextBox15.Tag = "Off"
+        Me.TextBox15.Visible = False
+        '
+        'TextBox16
+        '
+        Me.TextBox16.BackColor = System.Drawing.Color.DarkMagenta
+        Me.TextBox16.Location = New System.Drawing.Point(319, 680)
+        Me.TextBox16.Multiline = True
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox16.TabIndex = 22
+        Me.TextBox16.Tag = "Off"
+        Me.TextBox16.Visible = False
+        '
+        'TextBox17
+        '
+        Me.TextBox17.BackColor = System.Drawing.Color.Fuchsia
+        Me.TextBox17.Location = New System.Drawing.Point(398, 680)
+        Me.TextBox17.Multiline = True
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox17.TabIndex = 23
+        Me.TextBox17.Tag = "Off"
+        Me.TextBox17.Visible = False
+        '
+        'TextBox18
+        '
+        Me.TextBox18.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox18.Location = New System.Drawing.Point(473, 680)
+        Me.TextBox18.Multiline = True
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox18.TabIndex = 24
+        Me.TextBox18.Tag = "Off"
+        Me.TextBox18.Visible = False
+        '
+        'TextBox19
+        '
+        Me.TextBox19.BackColor = System.Drawing.Color.Orange
+        Me.TextBox19.Location = New System.Drawing.Point(550, 680)
+        Me.TextBox19.Multiline = True
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox19.TabIndex = 25
+        Me.TextBox19.Tag = "Off"
+        Me.TextBox19.Visible = False
+        '
+        'TextBox20
+        '
+        Me.TextBox20.BackColor = System.Drawing.Color.Orange
+        Me.TextBox20.Location = New System.Drawing.Point(622, 680)
+        Me.TextBox20.Multiline = True
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox20.TabIndex = 26
+        Me.TextBox20.Tag = "Off"
+        Me.TextBox20.Visible = False
+        '
+        'TextBox21
+        '
+        Me.TextBox21.BackColor = System.Drawing.Color.Orange
+        Me.TextBox21.Location = New System.Drawing.Point(698, 680)
+        Me.TextBox21.Multiline = True
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox21.TabIndex = 27
+        Me.TextBox21.Tag = "Off"
+        Me.TextBox21.Visible = False
+        '
+        'TextBox22
+        '
+        Me.TextBox22.BackColor = System.Drawing.Color.Red
+        Me.TextBox22.Location = New System.Drawing.Point(771, 680)
+        Me.TextBox22.Multiline = True
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(79, 52)
+        Me.TextBox22.TabIndex = 28
+        Me.TextBox22.Tag = "Off"
+        Me.TextBox22.Visible = False
+        '
         'MenuSpelling
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(974, 779)
+        Me.Controls.Add(Me.TextBox22)
+        Me.Controls.Add(Me.TextBox21)
+        Me.Controls.Add(Me.TextBox20)
+        Me.Controls.Add(Me.TextBox19)
+        Me.Controls.Add(Me.TextBox18)
+        Me.Controls.Add(Me.TextBox17)
+        Me.Controls.Add(Me.TextBox16)
+        Me.Controls.Add(Me.TextBox15)
+        Me.Controls.Add(Me.TextBox14)
+        Me.Controls.Add(Me.TextBox13)
         Me.Controls.Add(Me.TextBox12)
         Me.Controls.Add(Me.TextBox11)
         Me.Controls.Add(Me.TextBox10)
@@ -316,4 +447,14 @@ Partial Class MenuSpelling
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents TextBox11 As TextBox
     Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents TextBox22 As TextBox
 End Class
