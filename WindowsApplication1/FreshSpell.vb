@@ -11,15 +11,10 @@
     Dim dikLittleLetters As New Dictionary(Of String, Button)
 
 
-    'Public Sub SpellingGame_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-    Public Sub freshspell_Load(sender As Object, e As EventArgs) Handles Me.Load
-
+    Public Sub freshSpell_Load(sender As Object, e As EventArgs) Handles Me.Load
 
         Dim i As Integer
-
-
-
-
+        My.Forms.MenuSpelling.Close()
         Me.WindowState = FormWindowState.Maximized
 
 
@@ -137,6 +132,7 @@
         My.Forms.FreshSpell.Show()
         PlayWav(Button1.Text)
 
+
     End Sub
 
     Public btn As Button ' this is a reference object
@@ -169,14 +165,6 @@
             Threading.Thread.Sleep(750)
             btn.Visible = False
             If Button2.Tag <> "ZZ" Then
-                'For Each cntrl As Control In Me.Controls
-                '    If TypeOf cntrl Is Button Then
-                '        If cntrl.Tag = Button1.Tag Then  'this should take care of the current letter and any duplicates
-                '            cntrl.BackColor = Color.Yellow
-                '            cntrl.ForeColor = Color.Purple
-                '        End If
-                '    End If
-                'Next
                 For Each cntrl In xrayBigLetters
                     If cntrl.Tag = Button1.Tag Then  'this should take care of the current letter and any duplicates
                         cntrl.BackColor = Color.Yellow
@@ -197,12 +185,10 @@
             btn.Visible = False
             Threading.Thread.Sleep(750)
             If Button3.Tag <> "ZZ" Then
-                For Each cntrl As Control In Me.Controls
-                    If TypeOf cntrl Is Button Then
-                        If cntrl.Tag = Button2.Tag Then  'this should take care of the current letter and any duplicates
-                            cntrl.BackColor = Color.Yellow
-                            cntrl.ForeColor = Color.Purple
-                        End If
+                For Each cntrl In xrayBigLetters
+                    If cntrl.Tag = Button2.Tag Then  'this should take care of the current letter and any duplicates
+                        cntrl.BackColor = Color.Yellow
+                        cntrl.ForeColor = Color.Purple
                     End If
                 Next
                 Button3.FlatStyle = FlatStyle.Flat
@@ -217,12 +203,10 @@
             btn.Visible = False
             Threading.Thread.Sleep(750)
             If Button4.Tag <> "ZZ" Then
-                For Each cntrl As Control In Me.Controls
-                    If TypeOf cntrl Is Button Then
-                        If cntrl.Tag = Button3.Tag Then  'this should take care of the current letter and any duplicates
-                            cntrl.BackColor = Color.Yellow
-                            cntrl.ForeColor = Color.Purple
-                        End If
+                For Each cntrl In xrayBigLetters
+                    If cntrl.Tag = Button3.Tag Then  'this should take care of the current letter and any duplicates
+                        cntrl.BackColor = Color.Yellow
+                        cntrl.ForeColor = Color.Purple
                     End If
                 Next
                 Button4.FlatStyle = FlatStyle.Flat
@@ -237,12 +221,10 @@
             btn.Visible = False
             Threading.Thread.Sleep(750)
             If Button5.Tag <> "ZZ" Then
-                For Each cntrl As Control In Me.Controls
-                    If TypeOf cntrl Is Button Then
-                        If cntrl.Tag = Button4.Tag Then  'this should take care of the current letter and any duplicates
-                            cntrl.BackColor = Color.Yellow
-                            cntrl.ForeColor = Color.Purple
-                        End If
+                For Each cntrl In xrayBigLetters
+                    If cntrl.Tag = Button4.Tag Then  'this should take care of the current letter and any duplicates
+                        cntrl.BackColor = Color.Yellow
+                        cntrl.ForeColor = Color.Purple
                     End If
                 Next
                 Button5.FlatStyle = FlatStyle.Flat
@@ -263,12 +245,10 @@
             btn.Visible = False
             Threading.Thread.Sleep(750)
             If Button6.Tag <> "ZZ" Then
-                For Each cntrl As Control In Me.Controls
-                    If TypeOf cntrl Is Button Then
-                        If cntrl.Tag = Button5.Tag Then  'this should take care of the current letter and any duplicates
-                            cntrl.BackColor = Color.Yellow
-                            cntrl.ForeColor = Color.Purple
-                        End If
+                For Each cntrl In xrayBigLetters
+                    If cntrl.Tag = Button5.Tag Then  'this should take care of the current letter and any duplicates
+                        cntrl.BackColor = Color.Yellow
+                        cntrl.ForeColor = Color.Purple
                     End If
                 Next
                 Button6.FlatStyle = FlatStyle.Flat
@@ -283,7 +263,6 @@
             btn.Visible = False
             Button6.BackColor = Color.Yellow
             Button6.ForeColor = Color.Purple
-            Threading.Thread.Sleep(500)
             Winner()
         End If
 
@@ -302,18 +281,7 @@
         '        i = i + 1
         '    End While
         'Next
-        'For Each element In xrayStayBirds
-        '    element.Refresh()
-        'Next
-        'For Each cntrl As Control In Me.Controls
-        '    If TypeOf cntrl Is Button Then
-        '        If cntrl.Tag <> "ZZ" And cntrl.Size.Width = 145 Then
-        '            cntrl.BackColor = Color.Red
-        '        Else
-        '            cntrl.Visible = False
-        '        End If
-        '    End If
-        'Next
+
         For Each cntrl In xrayBigLetters
             cntrl.BackColor = Color.Yellow
             cntrl.ForeColor = Color.Purple
@@ -339,30 +307,26 @@
         End Select
 
 
-        'For Each cntrl As Control In Me.Controls
-        '    If TypeOf cntrl Is Button Then
-        '        If cntrl.Tag <> "ZZ" And cntrl.Size.Width = 145 Then
-        '            cntrl.BackColor = Color.Red
-        '        Else
-        '            cntrl.Visible = False
-        '        End If
-        '    End If
-        'Next
+        For Each cntrl In xrayLittleLetters
+            cntrl.Visible = False
+        Next
+
         'For Each element In xrayStayBirds
         '    element.Visible = False
         'Next
 
 
-        'picBird3.Visible = False
         My.Computer.Audio.Play("C:\aaCode\ScareTheChickens.wav")
         picBird.Visible = True
         picBird2.Visible = True
         picBird3.Visible = True
+        tmrEndAnimation.Enabled = True
         tmrAnimation.Start()
-
+        'tmrEndAnimation.Stop()
 
     End Sub
     Dim birdCount As Integer = 1
+
     Private Sub tmrAnimation_Tick(sender As Object, e As EventArgs) Handles tmrAnimation.Tick
         Dim xB1 As Integer = 20
         Dim xB2 As Integer = 21
@@ -372,9 +336,13 @@
         Dim xB22 As Integer = 20
         Dim yB11 As Integer = -14
         Dim yB22 As Integer = -11
-        Dim vTimeCount As Integer = 1
+        ProgressBar1.Value = ProgressBar1.Value + 1
+        If ProgressBar1.Value > 180 Then
+            tmrAnimation.Enabled = False
+            tmrAnimation.Stop()
+            ' My.Forms.FreshSpell.Close()
+        End If
 
-        'While vTimeCount < 5000
         Select Case birdCount
 
                 Case 1
@@ -385,10 +353,9 @@
                     picBird3.Image = My.Resources.bird6
                     picBird3.Location = New Point(picBird3.Location.X + 12, picBird3.Location.Y + 6)
                     birdCount += 1
-                   ' vTimeCount = vTimeCount + 1
             Case 2
-                    picBird.Image = My.Resources.bird2
-                    picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
+                picBird.Image = My.Resources.bird2
+                picBird.Location = New Point(picBird.Location.X + 20, picBird.Location.Y + -11)
                     picBird2.Image = My.Resources.bird7
                     picBird2.Location = New Point(picBird2.Location.X + 21, picBird2.Location.Y + -14)
                     picBird3.Image = My.Resources.bird7

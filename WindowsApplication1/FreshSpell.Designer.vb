@@ -65,6 +65,8 @@ Partial Class FreshSpell
         Me.picBird3 = New System.Windows.Forms.PictureBox()
         Me.picBird2 = New System.Windows.Forms.PictureBox()
         Me.picBird = New System.Windows.Forms.PictureBox()
+        Me.tmrEndAnimation = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         CType(Me.picBird8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBird7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBird6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -756,11 +758,25 @@ Partial Class FreshSpell
         Me.picBird.TabStop = False
         Me.picBird.Visible = False
         '
+        'tmrEndAnimation
+        '
+        Me.tmrEndAnimation.Interval = 5000
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(378, 556)
+        Me.ProgressBar1.Maximum = 10000
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(115, 43)
+        Me.ProgressBar1.TabIndex = 78
+        Me.ProgressBar1.Visible = False
+        '
         'FreshSpell
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1601, 625)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.picBird8)
         Me.Controls.Add(Me.picBird7)
         Me.Controls.Add(Me.picBird6)
@@ -859,4 +875,6 @@ Partial Class FreshSpell
     Friend WithEvents picBird3 As PictureBox
     Friend WithEvents picBird2 As PictureBox
     Friend WithEvents picBird As PictureBox
+    Friend WithEvents tmrEndAnimation As Timer
+    Friend WithEvents ProgressBar1 As ProgressBar
 End Class
