@@ -81,8 +81,8 @@ Partial Class FreshSpell
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button1.FlatAppearance.BorderSize = 3
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button1.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Purple
         Me.Button1.Location = New System.Drawing.Point(26, 26)
@@ -99,8 +99,8 @@ Partial Class FreshSpell
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button2.FlatAppearance.BorderSize = 3
-        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button2.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Purple
         Me.Button2.Location = New System.Drawing.Point(187, 26)
@@ -118,8 +118,8 @@ Partial Class FreshSpell
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button3.FlatAppearance.BorderSize = 3
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button3.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Purple
         Me.Button3.Location = New System.Drawing.Point(349, 26)
@@ -137,8 +137,8 @@ Partial Class FreshSpell
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button4.FlatAppearance.BorderSize = 3
-        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button4.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Purple
         Me.Button4.Location = New System.Drawing.Point(513, 26)
@@ -156,8 +156,8 @@ Partial Class FreshSpell
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button5.FlatAppearance.BorderSize = 3
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button5.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Purple
         Me.Button5.Location = New System.Drawing.Point(675, 26)
@@ -175,8 +175,8 @@ Partial Class FreshSpell
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button6.FlatAppearance.BorderSize = 3
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button6.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Purple
         Me.Button6.Location = New System.Drawing.Point(840, 26)

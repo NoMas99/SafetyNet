@@ -65,6 +65,7 @@ Partial Class MenuSpelling
         '
         'picOldBlue
         '
+        Me.picOldBlue.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picOldBlue.Image = CType(resources.GetObject("picOldBlue.Image"), System.Drawing.Image)
         Me.picOldBlue.Location = New System.Drawing.Point(660, 102)
         Me.picOldBlue.Name = "picOldBlue"
@@ -75,6 +76,7 @@ Partial Class MenuSpelling
         '
         'picStop
         '
+        Me.picStop.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picStop.Image = Global.WindowsApplication1.My.Resources.Resources.StopSign
         Me.picStop.Location = New System.Drawing.Point(100, 338)
         Me.picStop.Name = "picStop"
@@ -85,6 +87,7 @@ Partial Class MenuSpelling
         '
         'picDog
         '
+        Me.picDog.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picDog.Image = Global.WindowsApplication1.My.Resources.Resources.PuppyDog
         Me.picDog.Location = New System.Drawing.Point(641, 370)
         Me.picDog.Name = "picDog"
@@ -95,6 +98,7 @@ Partial Class MenuSpelling
         '
         'picCat
         '
+        Me.picCat.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picCat.Image = Global.WindowsApplication1.My.Resources.Resources.TabbyCat2
         Me.picCat.Location = New System.Drawing.Point(100, 102)
         Me.picCat.Name = "picCat"
@@ -105,6 +109,7 @@ Partial Class MenuSpelling
         '
         'picStell
         '
+        Me.picStell.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picStell.Image = Global.WindowsApplication1.My.Resources.Resources.Stella2
         Me.picStell.Location = New System.Drawing.Point(372, 161)
         Me.picStell.Name = "picStell"
