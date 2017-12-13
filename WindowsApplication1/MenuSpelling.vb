@@ -29,6 +29,11 @@
         Me.TextBox1.Text = "blue"
         FreshSpell.Show()
     End Sub
+    Private Sub CmdBanana_Click(sender As Object, e As EventArgs) Handles picBanana.Click
+        Me.Hide()
+        Me.TextBox1.Text = "banana"
+        FreshSpell.Show()
+    End Sub
     Dim vCount As Integer = 1
     Private Sub TmrStella_Tick(sender As Object, e As EventArgs) Handles tmrStella.Tick
         ' Dim vCount As Integer

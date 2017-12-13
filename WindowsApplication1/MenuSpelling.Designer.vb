@@ -54,18 +54,22 @@ Partial Class MenuSpelling
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
+        Me.picBanana = New System.Windows.Forms.PictureBox()
         CType(Me.picOldBlue, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStop, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDog, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBanana, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'cmdOK
         '
         Me.cmdOK.BackColor = System.Drawing.Color.Purple
         Me.cmdOK.Font = New System.Drawing.Font("Calibri", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdOK.Location = New System.Drawing.Point(418, 536)
+        Me.cmdOK.Location = New System.Drawing.Point(408, 514)
         Me.cmdOK.Margin = New System.Windows.Forms.Padding(2)
         Me.cmdOK.Name = "cmdOK"
         Me.cmdOK.Size = New System.Drawing.Size(122, 112)
@@ -252,7 +256,7 @@ Partial Class MenuSpelling
         Me.TextBox11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(771, 658)
+        Me.TextBox11.Location = New System.Drawing.Point(753, 658)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(24, 16)
         Me.TextBox11.TabIndex = 17
@@ -371,6 +375,7 @@ Partial Class MenuSpelling
         'TextBox22
         '
         Me.TextBox22.BackColor = System.Drawing.Color.Red
+        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox22.Location = New System.Drawing.Point(771, 680)
         Me.TextBox22.Multiline = True
         Me.TextBox22.Name = "TextBox22"
@@ -379,12 +384,44 @@ Partial Class MenuSpelling
         Me.TextBox22.Tag = "Off"
         Me.TextBox22.Visible = False
         '
+        'ShapeContainer1
+        '
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.OvalShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(1127, 779)
+        Me.ShapeContainer1.TabIndex = 29
+        Me.ShapeContainer1.TabStop = False
+        '
+        'OvalShape1
+        '
+        Me.OvalShape1.BackColor = System.Drawing.Color.Red
+        Me.OvalShape1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.OvalShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
+        Me.OvalShape1.Location = New System.Drawing.Point(775, 646)
+        Me.OvalShape1.Name = "OvalShape1"
+        Me.OvalShape1.Size = New System.Drawing.Size(85, 117)
+        Me.OvalShape1.Visible = False
+        '
+        'picBanana
+        '
+        Me.picBanana.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.picBanana.Image = Global.WindowsApplication1.My.Resources.Resources.Henr
+        Me.picBanana.Location = New System.Drawing.Point(889, 239)
+        Me.picBanana.Name = "picBanana"
+        Me.picBanana.Size = New System.Drawing.Size(179, 221)
+        Me.picBanana.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBanana.TabIndex = 30
+        Me.picBanana.TabStop = False
+        '
         'MenuSpelling
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(974, 779)
+        Me.ClientSize = New System.Drawing.Size(1127, 779)
+        Me.Controls.Add(Me.picBanana)
         Me.Controls.Add(Me.TextBox22)
         Me.Controls.Add(Me.TextBox21)
         Me.Controls.Add(Me.TextBox20)
@@ -414,6 +451,7 @@ Partial Class MenuSpelling
         Me.Controls.Add(Me.picCat)
         Me.Controls.Add(Me.picStell)
         Me.Controls.Add(Me.cmdOK)
+        Me.Controls.Add(Me.ShapeContainer1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MenuSpelling"
         Me.Text = "Spelling Bee"
@@ -422,6 +460,7 @@ Partial Class MenuSpelling
         CType(Me.picDog, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picCat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picStell, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBanana, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -457,4 +496,7 @@ Partial Class MenuSpelling
     Friend WithEvents TextBox20 As TextBox
     Friend WithEvents TextBox21 As TextBox
     Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
+    Friend WithEvents OvalShape1 As PowerPacks.OvalShape
+    Friend WithEvents picBanana As PictureBox
 End Class
