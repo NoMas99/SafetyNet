@@ -26,7 +26,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/WindowsApplication1/</UpdateUrl>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>21</ApplicationRevision>
+    <ApplicationRevision>22</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -284,6 +284,7 @@
     <None Include="Resources\bird11.png" />
     <None Include="Resources\bird12.png" />
     <None Include="Resources\birdLast.png" />
+    <None Include="Resources\Banana.jpg" />
     <Content Include="Resources\BUni.JPG" />
     <Content Include="Resources\Henr.JPG" />
     <Content Include="Resources\Jenn.JPG" />
