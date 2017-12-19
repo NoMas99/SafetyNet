@@ -317,8 +317,11 @@
         Dim xB22 As Integer = 20
         Dim yB11 As Integer = -14
         Dim yB22 As Integer = -11
+        Dim vRounds As Integer = 0
+        Dim tRound As String
+        Dim vWav As String
 
-        'THE GAME WILL END IN THIS NEXT SECTION
+        'THE ROUND WILL END IN THIS NEXT SECTION
 
         ProgressBar1.Value = ProgressBar1.Value + 1 'keeps a count of the timer loops
         If ProgressBar1.Value > 140 Then  'the chickens have flown far enough
@@ -337,14 +340,21 @@
                 If box.Tag = "Off" Then
                     box.Visible = True
                     box.Tag = "On"
+                    vRounds += 1
                     Exit For
                 End If
             Next
             My.Forms.MenuSpelling.Show()  'shows menu for next round
-            If My.Forms.MenuSpelling.tb6.Tag = "On" Then  'if the last text box in the "progress
-                My.Forms.MenuSpelling.OvalShape1.Visible = True  'the tip of the "thermometer"
-                PlayWav("Surprise")
-            End If
+            tRound = Trim(Str(vRounds))
+
+            ' PlayWav(tRound & "Points")
+            vWav = "C:\aaCode\" & tRound & "Points" & ".Wav"
+            My.Computer.Audio.Play(vWav)
+
+            'If My.Forms.MenuSpelling.tb6.Tag = "On" Then  'if the last text box in the "progress
+            '    My.Forms.MenuSpelling.OvalShape1.Visible = True  'the tip of the "thermometer"
+            '    PlayWav("Surprise")
+            'End If
         End If
 
         Select Case birdCount
