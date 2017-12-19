@@ -62,8 +62,8 @@
         'End Select
     End Sub
     Public Sub menuSpelling_Load(sender As Object, e As EventArgs) Handles Me.Load
-        If Me.ProgressBar1.Value = 0 Then
-            MsgBox("Hello, Merle!")
-        End If
+        'If Me.ProgressBar1.Value = 0 Then
+        '    MsgBox("Hello, Merle!")
+        'End If
     End Sub
 End Class

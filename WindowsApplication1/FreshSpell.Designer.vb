@@ -57,6 +57,9 @@ Partial Class FreshSpell
         Me.ButtN = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.tmrAnimation = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrEndAnimation = New System.Windows.Forms.Timer(Me.components)
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.progressLoop = New System.Windows.Forms.ProgressBar()
         Me.picBird8 = New System.Windows.Forms.PictureBox()
         Me.picBird7 = New System.Windows.Forms.PictureBox()
         Me.picBird6 = New System.Windows.Forms.PictureBox()
@@ -65,9 +68,6 @@ Partial Class FreshSpell
         Me.picBird3 = New System.Windows.Forms.PictureBox()
         Me.picBird2 = New System.Windows.Forms.PictureBox()
         Me.picBird = New System.Windows.Forms.PictureBox()
-        Me.tmrEndAnimation = New System.Windows.Forms.Timer(Me.components)
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
-        Me.progressLoop = New System.Windows.Forms.ProgressBar()
         CType(Me.picBird8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBird7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBird6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,7 +93,7 @@ Partial Class FreshSpell
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(145, 156)
         Me.Button1.TabIndex = 36
-        Me.Button1.Text = "D"
+        Me.Button1.Text = "T"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
@@ -111,7 +111,7 @@ Partial Class FreshSpell
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(145, 156)
         Me.Button2.TabIndex = 37
-        Me.Button2.Text = "O"
+        Me.Button2.Text = "R"
         Me.Button2.UseVisualStyleBackColor = False
         Me.Button2.Visible = False
         '
@@ -130,7 +130,7 @@ Partial Class FreshSpell
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(145, 156)
         Me.Button3.TabIndex = 38
-        Me.Button3.Text = "G"
+        Me.Button3.Text = "I"
         Me.Button3.UseVisualStyleBackColor = False
         Me.Button3.Visible = False
         '
@@ -149,7 +149,7 @@ Partial Class FreshSpell
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(145, 156)
         Me.Button4.TabIndex = 39
-        Me.Button4.Text = "G"
+        Me.Button4.Text = "N"
         Me.Button4.UseVisualStyleBackColor = False
         Me.Button4.Visible = False
         '
@@ -168,7 +168,7 @@ Partial Class FreshSpell
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(145, 156)
         Me.Button5.TabIndex = 40
-        Me.Button5.Text = "G"
+        Me.Button5.Text = "A"
         Me.Button5.UseVisualStyleBackColor = False
         Me.Button5.Visible = False
         '
@@ -187,7 +187,7 @@ Partial Class FreshSpell
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(145, 156)
         Me.Button6.TabIndex = 41
-        Me.Button6.Text = "G"
+        Me.Button6.Text = "B"
         Me.Button6.UseVisualStyleBackColor = False
         Me.Button6.Visible = False
         '
@@ -671,6 +671,29 @@ Partial Class FreshSpell
         '
         Me.tmrAnimation.Interval = 50
         '
+        'tmrEndAnimation
+        '
+        Me.tmrEndAnimation.Interval = 5000
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(378, 556)
+        Me.ProgressBar1.Maximum = 10000
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(115, 43)
+        Me.ProgressBar1.TabIndex = 78
+        Me.ProgressBar1.Visible = False
+        '
+        'progressLoop
+        '
+        Me.progressLoop.Location = New System.Drawing.Point(1391, 547)
+        Me.progressLoop.Maximum = 10000
+        Me.progressLoop.Name = "progressLoop"
+        Me.progressLoop.Size = New System.Drawing.Size(115, 43)
+        Me.progressLoop.TabIndex = 80
+        Me.progressLoop.Value = 1
+        Me.progressLoop.Visible = False
+        '
         'picBird8
         '
         Me.picBird8.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
@@ -758,29 +781,6 @@ Partial Class FreshSpell
         Me.picBird.TabIndex = 69
         Me.picBird.TabStop = False
         Me.picBird.Visible = False
-        '
-        'tmrEndAnimation
-        '
-        Me.tmrEndAnimation.Interval = 5000
-        '
-        'ProgressBar1
-        '
-        Me.ProgressBar1.Location = New System.Drawing.Point(378, 556)
-        Me.ProgressBar1.Maximum = 10000
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(115, 43)
-        Me.ProgressBar1.TabIndex = 78
-        Me.ProgressBar1.Visible = False
-        '
-        'progressLoop
-        '
-        Me.progressLoop.Location = New System.Drawing.Point(1391, 547)
-        Me.progressLoop.Maximum = 10000
-        Me.progressLoop.Name = "progressLoop"
-        Me.progressLoop.Size = New System.Drawing.Size(115, 43)
-        Me.progressLoop.TabIndex = 80
-        Me.progressLoop.Value = 1
-        Me.progressLoop.Visible = False
         '
         'FreshSpell
         '

@@ -29,22 +29,22 @@ Partial Class MenuSpelling
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.tb1 = New System.Windows.Forms.TextBox()
+        Me.tb2 = New System.Windows.Forms.TextBox()
+        Me.tb3 = New System.Windows.Forms.TextBox()
+        Me.tb4 = New System.Windows.Forms.TextBox()
+        Me.tb5 = New System.Windows.Forms.TextBox()
+        Me.tb6 = New System.Windows.Forms.TextBox()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.pb1 = New System.Windows.Forms.TextBox()
+        Me.pb2 = New System.Windows.Forms.TextBox()
+        Me.pb3 = New System.Windows.Forms.TextBox()
+        Me.pb4 = New System.Windows.Forms.TextBox()
+        Me.pb5 = New System.Windows.Forms.TextBox()
+        Me.pb6 = New System.Windows.Forms.TextBox()
         Me.TextBox19 = New System.Windows.Forms.TextBox()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
@@ -69,7 +69,7 @@ Partial Class MenuSpelling
         '
         Me.cmdOK.BackColor = System.Drawing.Color.Purple
         Me.cmdOK.Font = New System.Drawing.Font("Calibri", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdOK.Location = New System.Drawing.Point(421, 466)
+        Me.cmdOK.Location = New System.Drawing.Point(870, 634)
         Me.cmdOK.Margin = New System.Windows.Forms.Padding(2)
         Me.cmdOK.Name = "cmdOK"
         Me.cmdOK.Size = New System.Drawing.Size(122, 112)
@@ -108,71 +108,83 @@ Partial Class MenuSpelling
         Me.TextBox2.TabIndex = 8
         Me.TextBox2.Visible = False
         '
-        'TextBox3
+        'tb1
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(208, 658)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox3.TabIndex = 9
-        Me.TextBox3.Text = "1"
+        Me.tb1.BackColor = System.Drawing.Color.Violet
+        Me.tb1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb1.Location = New System.Drawing.Point(1058, 707)
+        Me.tb1.Name = "tb1"
+        Me.tb1.Size = New System.Drawing.Size(24, 24)
+        Me.tb1.TabIndex = 9
+        Me.tb1.Tag = "Off"
+        Me.tb1.Text = "1"
+        Me.tb1.Visible = False
         '
-        'TextBox4
+        'tb2
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(325, 658)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox4.TabIndex = 10
-        Me.TextBox4.Text = "2"
+        Me.tb2.BackColor = System.Drawing.Color.Fuchsia
+        Me.tb2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb2.Location = New System.Drawing.Point(1058, 594)
+        Me.tb2.Name = "tb2"
+        Me.tb2.Size = New System.Drawing.Size(24, 24)
+        Me.tb2.TabIndex = 10
+        Me.tb2.Tag = "Off"
+        Me.tb2.Text = "2"
+        Me.tb2.Visible = False
         '
-        'TextBox5
+        'tb3
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(455, 658)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox5.TabIndex = 11
-        Me.TextBox5.Text = "3"
+        Me.tb3.BackColor = System.Drawing.Color.DarkViolet
+        Me.tb3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb3.Location = New System.Drawing.Point(1058, 490)
+        Me.tb3.Name = "tb3"
+        Me.tb3.Size = New System.Drawing.Size(24, 24)
+        Me.tb3.TabIndex = 11
+        Me.tb3.Tag = "Off"
+        Me.tb3.Text = "3"
+        Me.tb3.Visible = False
         '
-        'TextBox6
+        'tb4
         '
-        Me.TextBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(580, 658)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox6.TabIndex = 12
-        Me.TextBox6.Text = "4"
+        Me.tb4.BackColor = System.Drawing.Color.DarkMagenta
+        Me.tb4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb4.Location = New System.Drawing.Point(1058, 385)
+        Me.tb4.Name = "tb4"
+        Me.tb4.Size = New System.Drawing.Size(24, 24)
+        Me.tb4.TabIndex = 12
+        Me.tb4.Tag = "Off"
+        Me.tb4.Text = "4"
+        Me.tb4.Visible = False
         '
-        'TextBox7
+        'tb5
         '
-        Me.TextBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(707, 658)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox7.TabIndex = 13
-        Me.TextBox7.Text = "5"
+        Me.tb5.BackColor = System.Drawing.Color.Fuchsia
+        Me.tb5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb5.Location = New System.Drawing.Point(1058, 276)
+        Me.tb5.Name = "tb5"
+        Me.tb5.Size = New System.Drawing.Size(24, 24)
+        Me.tb5.TabIndex = 13
+        Me.tb5.Tag = "Off"
+        Me.tb5.Text = "5"
+        Me.tb5.Visible = False
         '
-        'TextBox8
+        'tb6
         '
-        Me.TextBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(836, 658)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(24, 19)
-        Me.TextBox8.TabIndex = 14
-        Me.TextBox8.Text = "6"
+        Me.tb6.BackColor = System.Drawing.Color.Orange
+        Me.tb6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tb6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb6.Location = New System.Drawing.Point(1058, 168)
+        Me.tb6.Name = "tb6"
+        Me.tb6.Size = New System.Drawing.Size(24, 24)
+        Me.tb6.TabIndex = 14
+        Me.tb6.Tag = "Off"
+        Me.tb6.Text = "6"
+        Me.tb6.Visible = False
         '
         'TextBox9
         '
@@ -222,71 +234,71 @@ Partial Class MenuSpelling
         Me.TextBox12.Text = "10"
         Me.TextBox12.Visible = False
         '
-        'TextBox13
+        'pb1
         '
-        Me.TextBox13.BackColor = System.Drawing.Color.Violet
-        Me.TextBox13.Location = New System.Drawing.Point(138, 680)
-        Me.TextBox13.Multiline = True
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(131, 52)
-        Me.TextBox13.TabIndex = 19
-        Me.TextBox13.Tag = "Off"
-        Me.TextBox13.Visible = False
+        Me.pb1.BackColor = System.Drawing.Color.Violet
+        Me.pb1.Location = New System.Drawing.Point(1033, 664)
+        Me.pb1.Multiline = True
+        Me.pb1.Name = "pb1"
+        Me.pb1.Size = New System.Drawing.Size(61, 115)
+        Me.pb1.TabIndex = 19
+        Me.pb1.Tag = "Off"
+        Me.pb1.Visible = False
         '
-        'TextBox14
+        'pb2
         '
-        Me.TextBox14.BackColor = System.Drawing.Color.Fuchsia
-        Me.TextBox14.Location = New System.Drawing.Point(265, 680)
-        Me.TextBox14.Multiline = True
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(130, 52)
-        Me.TextBox14.TabIndex = 20
-        Me.TextBox14.Tag = "Off"
-        Me.TextBox14.Visible = False
+        Me.pb2.BackColor = System.Drawing.Color.Fuchsia
+        Me.pb2.Location = New System.Drawing.Point(1033, 552)
+        Me.pb2.Multiline = True
+        Me.pb2.Name = "pb2"
+        Me.pb2.Size = New System.Drawing.Size(61, 115)
+        Me.pb2.TabIndex = 20
+        Me.pb2.Tag = "Off"
+        Me.pb2.Visible = False
         '
-        'TextBox15
+        'pb3
         '
-        Me.TextBox15.BackColor = System.Drawing.Color.DarkViolet
-        Me.TextBox15.Location = New System.Drawing.Point(391, 680)
-        Me.TextBox15.Multiline = True
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(130, 52)
-        Me.TextBox15.TabIndex = 21
-        Me.TextBox15.Tag = "Off"
-        Me.TextBox15.Visible = False
+        Me.pb3.BackColor = System.Drawing.Color.DarkViolet
+        Me.pb3.Location = New System.Drawing.Point(1033, 438)
+        Me.pb3.Multiline = True
+        Me.pb3.Name = "pb3"
+        Me.pb3.Size = New System.Drawing.Size(61, 115)
+        Me.pb3.TabIndex = 21
+        Me.pb3.Tag = "Off"
+        Me.pb3.Visible = False
         '
-        'TextBox16
+        'pb4
         '
-        Me.TextBox16.BackColor = System.Drawing.Color.DarkMagenta
-        Me.TextBox16.Location = New System.Drawing.Point(518, 680)
-        Me.TextBox16.Multiline = True
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(131, 52)
-        Me.TextBox16.TabIndex = 22
-        Me.TextBox16.Tag = "Off"
-        Me.TextBox16.Visible = False
+        Me.pb4.BackColor = System.Drawing.Color.DarkMagenta
+        Me.pb4.Location = New System.Drawing.Point(1033, 338)
+        Me.pb4.Multiline = True
+        Me.pb4.Name = "pb4"
+        Me.pb4.Size = New System.Drawing.Size(61, 115)
+        Me.pb4.TabIndex = 22
+        Me.pb4.Tag = "Off"
+        Me.pb4.Visible = False
         '
-        'TextBox17
+        'pb5
         '
-        Me.TextBox17.BackColor = System.Drawing.Color.Fuchsia
-        Me.TextBox17.Location = New System.Drawing.Point(646, 680)
-        Me.TextBox17.Multiline = True
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(130, 52)
-        Me.TextBox17.TabIndex = 23
-        Me.TextBox17.Tag = "Off"
-        Me.TextBox17.Visible = False
+        Me.pb5.BackColor = System.Drawing.Color.Fuchsia
+        Me.pb5.Location = New System.Drawing.Point(1033, 228)
+        Me.pb5.Multiline = True
+        Me.pb5.Name = "pb5"
+        Me.pb5.Size = New System.Drawing.Size(61, 115)
+        Me.pb5.TabIndex = 23
+        Me.pb5.Tag = "Off"
+        Me.pb5.Visible = False
         '
-        'TextBox18
+        'pb6
         '
-        Me.TextBox18.BackColor = System.Drawing.Color.Orange
-        Me.TextBox18.Location = New System.Drawing.Point(770, 680)
-        Me.TextBox18.Multiline = True
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(137, 52)
-        Me.TextBox18.TabIndex = 24
-        Me.TextBox18.Tag = "Off"
-        Me.TextBox18.Visible = False
+        Me.pb6.BackColor = System.Drawing.Color.Orange
+        Me.pb6.Location = New System.Drawing.Point(1033, 118)
+        Me.pb6.Multiline = True
+        Me.pb6.Name = "pb6"
+        Me.pb6.Size = New System.Drawing.Size(61, 115)
+        Me.pb6.TabIndex = 24
+        Me.pb6.Tag = "Off"
+        Me.pb6.Visible = False
         '
         'TextBox19
         '
@@ -325,7 +337,7 @@ Partial Class MenuSpelling
         '
         Me.TextBox22.BackColor = System.Drawing.Color.Red
         Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox22.Location = New System.Drawing.Point(989, 93)
+        Me.TextBox22.Location = New System.Drawing.Point(884, 93)
         Me.TextBox22.Multiline = True
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(79, 52)
@@ -348,16 +360,16 @@ Partial Class MenuSpelling
         Me.OvalShape1.BackColor = System.Drawing.Color.Orange
         Me.OvalShape1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.OvalShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
-        Me.OvalShape1.Location = New System.Drawing.Point(898, 641)
+        Me.OvalShape1.Location = New System.Drawing.Point(1033, 72)
         Me.OvalShape1.Name = "OvalShape1"
-        Me.OvalShape1.Size = New System.Drawing.Size(85, 117)
+        Me.OvalShape1.Size = New System.Drawing.Size(61, 146)
         Me.OvalShape1.Visible = False
         '
         'picBanana
         '
         Me.picBanana.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picBanana.Image = Global.WindowsApplication1.My.Resources.Resources.Banana
-        Me.picBanana.Location = New System.Drawing.Point(898, 257)
+        Me.picBanana.Location = New System.Drawing.Point(460, 118)
         Me.picBanana.Name = "picBanana"
         Me.picBanana.Size = New System.Drawing.Size(86, 217)
         Me.picBanana.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -368,7 +380,7 @@ Partial Class MenuSpelling
         '
         Me.picOldBlue.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picOldBlue.Image = CType(resources.GetObject("picOldBlue.Image"), System.Drawing.Image)
-        Me.picOldBlue.Location = New System.Drawing.Point(660, 102)
+        Me.picOldBlue.Location = New System.Drawing.Point(699, 102)
         Me.picOldBlue.Name = "picOldBlue"
         Me.picOldBlue.Size = New System.Drawing.Size(179, 221)
         Me.picOldBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -390,7 +402,7 @@ Partial Class MenuSpelling
         '
         Me.picDog.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picDog.Image = Global.WindowsApplication1.My.Resources.Resources.PuppyDog
-        Me.picDog.Location = New System.Drawing.Point(641, 370)
+        Me.picDog.Location = New System.Drawing.Point(673, 370)
         Me.picDog.Name = "picDog"
         Me.picDog.Size = New System.Drawing.Size(220, 183)
         Me.picDog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -412,7 +424,7 @@ Partial Class MenuSpelling
         '
         Me.picStell.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picStell.Image = Global.WindowsApplication1.My.Resources.Resources.Stella2
-        Me.picStell.Location = New System.Drawing.Point(383, 137)
+        Me.picStell.Location = New System.Drawing.Point(380, 403)
         Me.picStell.Name = "picStell"
         Me.picStell.Size = New System.Drawing.Size(221, 299)
         Me.picStell.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -430,22 +442,16 @@ Partial Class MenuSpelling
         Me.Controls.Add(Me.TextBox21)
         Me.Controls.Add(Me.TextBox20)
         Me.Controls.Add(Me.TextBox19)
-        Me.Controls.Add(Me.TextBox18)
-        Me.Controls.Add(Me.TextBox17)
-        Me.Controls.Add(Me.TextBox16)
-        Me.Controls.Add(Me.TextBox15)
-        Me.Controls.Add(Me.TextBox14)
-        Me.Controls.Add(Me.TextBox13)
         Me.Controls.Add(Me.TextBox12)
         Me.Controls.Add(Me.TextBox11)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.tb6)
+        Me.Controls.Add(Me.tb5)
+        Me.Controls.Add(Me.tb4)
+        Me.Controls.Add(Me.tb3)
+        Me.Controls.Add(Me.tb2)
+        Me.Controls.Add(Me.tb1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.picOldBlue)
@@ -455,6 +461,12 @@ Partial Class MenuSpelling
         Me.Controls.Add(Me.picCat)
         Me.Controls.Add(Me.picStell)
         Me.Controls.Add(Me.cmdOK)
+        Me.Controls.Add(Me.pb6)
+        Me.Controls.Add(Me.pb5)
+        Me.Controls.Add(Me.pb4)
+        Me.Controls.Add(Me.pb3)
+        Me.Controls.Add(Me.pb2)
+        Me.Controls.Add(Me.pb1)
         Me.Controls.Add(Me.ShapeContainer1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MenuSpelling"
@@ -480,22 +492,22 @@ Partial Class MenuSpelling
     Friend WithEvents picOldBlue As PictureBox
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents tb1 As TextBox
+    Friend WithEvents tb2 As TextBox
+    Friend WithEvents tb3 As TextBox
+    Friend WithEvents tb4 As TextBox
+    Friend WithEvents tb5 As TextBox
+    Friend WithEvents tb6 As TextBox
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents TextBox10 As TextBox
     Friend WithEvents TextBox11 As TextBox
     Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents pb1 As TextBox
+    Friend WithEvents pb2 As TextBox
+    Friend WithEvents pb3 As TextBox
+    Friend WithEvents pb4 As TextBox
+    Friend WithEvents pb5 As TextBox
+    Friend WithEvents pb6 As TextBox
     Friend WithEvents TextBox19 As TextBox
     Friend WithEvents TextBox20 As TextBox
     Friend WithEvents TextBox21 As TextBox

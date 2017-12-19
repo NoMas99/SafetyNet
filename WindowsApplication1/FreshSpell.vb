@@ -7,7 +7,8 @@
     Dim xrayEmptySpots(5) As Point
     Dim xrayFlyBirds(1) As PictureBox
     Dim xrayStayBirds(5) As PictureBox
-    Dim xrayProgress(9) As TextBox
+    Dim xrayProgress(5) As TextBox
+    Dim xrayProgressNumbers(5) As TextBox
     Dim btnBig As Button
     Dim btnBigNext As Button
     Dim xrayLittleLetters(25) As Button
@@ -35,10 +36,10 @@
 
         xrayFlyBirds = {picBird, picBird2}
         xrayBigLetters = {Button1, Button2, Button3, Button4, Button5, Button6}
-        xrayProgress = {My.Forms.MenuSpelling.TextBox13, My.Forms.MenuSpelling.TextBox14, My.Forms.MenuSpelling.TextBox15, My.Forms.MenuSpelling.TextBox16,
-        My.Forms.MenuSpelling.TextBox17, My.Forms.MenuSpelling.TextBox18, My.Forms.MenuSpelling.TextBox19, My.Forms.MenuSpelling.TextBox20, My.Forms.MenuSpelling.TextBox21, My.Forms.MenuSpelling.TextBox22}
-        ' xrayStayBirds = {picBird3, picBird4, picBird5, picBird6, picBird7, picBird8}
-
+        xrayProgress = {My.Forms.MenuSpelling.pb1, My.Forms.MenuSpelling.pb2, My.Forms.MenuSpelling.pb3, My.Forms.MenuSpelling.pb4,
+        My.Forms.MenuSpelling.pb5, My.Forms.MenuSpelling.pb6}
+        xrayProgressNumbers = {My.Forms.MenuSpelling.tb1, My.Forms.MenuSpelling.tb2, My.Forms.MenuSpelling.tb3, My.Forms.MenuSpelling.tb4,
+        My.Forms.MenuSpelling.tb5, My.Forms.MenuSpelling.tb6}
         Select Case MenuSpelling.TextBox1.Text
             Case "stella"
                 vWord = "stella"
@@ -167,7 +168,7 @@
         Dim yBigT As Integer
         Dim vExit As Boolean
         Dim vSec As Integer
-
+        drag = False
         Select Case vLoop
             Case 1
                 btnBig = Button1
@@ -224,7 +225,7 @@
 
         If btnSmall.Text = btnBig.Text And btnSmall.Location.Y < yBigT And btnSmall.Location.X > xBigL And btnSmall.Location.X < xBigR Then  'if the dragged smallLetter matches the bigLetter and is dragged "close" to the bigLetter
             My.Computer.Audio.Play("C:\aaCode\Tada.wav")
-            'Threading.Thread.Sleep(750) 'delay to allow the Tada time to play
+            Threading.Thread.Sleep(750) 'delay to allow the Tada time to play
             If btnBigNext.Tag <> "ZZ" Then  'basically checking if there is a next bigLetter
                 btnSmall.Visible = False
                 btnBig.BackColor = Color.Yellow
@@ -240,7 +241,10 @@
                 End If
                 btnBigNext.FlatStyle = FlatStyle.Flat
                 btnBigNext.FlatAppearance.BorderColor = Color.Red  'borders the next bigLetter in red to highlight
+
                 PlayWav(btnBigNext.Text)                           'and plays "Find the letter ___"
+                drag = True
+                'Threading.Thread.Sleep(2100) 'delay to allow the Tada time to play
             Else
                 Winner()    'or the last letter has been matched
             End If
@@ -287,6 +291,9 @@
             Case "blue"
                 My.Computer.Audio.Play("C:\aaCode\SpelledBlue.wav")
                 Threading.Thread.Sleep(4000)
+            Case "banana"
+                My.Computer.Audio.Play("C:\aaCode\SpelledBanana.wav")
+                Threading.Thread.Sleep(4500)
         End Select
 
 
@@ -326,8 +333,15 @@
                     Exit For
                 End If
             Next
+            For Each box In xrayProgressNumbers 'and now the numbers inside the progress textboxes
+                If box.Tag = "Off" Then
+                    box.Visible = True
+                    box.Tag = "On"
+                    Exit For
+                End If
+            Next
             My.Forms.MenuSpelling.Show()  'shows menu for next round
-            If My.Forms.MenuSpelling.TextBox22.Tag = "On" Then  'if the last text box in the "progress
+            If My.Forms.MenuSpelling.tb6.Tag = "On" Then  'if the last text box in the "progress
                 My.Forms.MenuSpelling.OvalShape1.Visible = True  'the tip of the "thermometer"
                 PlayWav("Surprise")
             End If
