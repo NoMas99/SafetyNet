@@ -88,10 +88,9 @@ Partial Class FreshSpell
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button1.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Purple
-        Me.Button1.Location = New System.Drawing.Point(26, 26)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Location = New System.Drawing.Point(39, 40)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(145, 156)
+        Me.Button1.Size = New System.Drawing.Size(218, 240)
         Me.Button1.TabIndex = 36
         Me.Button1.Text = "T"
         Me.Button1.UseVisualStyleBackColor = False
@@ -106,10 +105,9 @@ Partial Class FreshSpell
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button2.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Purple
-        Me.Button2.Location = New System.Drawing.Point(187, 26)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button2.Location = New System.Drawing.Point(280, 40)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(145, 156)
+        Me.Button2.Size = New System.Drawing.Size(218, 240)
         Me.Button2.TabIndex = 37
         Me.Button2.Text = "R"
         Me.Button2.UseVisualStyleBackColor = False
@@ -125,10 +123,9 @@ Partial Class FreshSpell
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button3.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Purple
-        Me.Button3.Location = New System.Drawing.Point(349, 26)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button3.Location = New System.Drawing.Point(524, 40)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(145, 156)
+        Me.Button3.Size = New System.Drawing.Size(218, 240)
         Me.Button3.TabIndex = 38
         Me.Button3.Text = "I"
         Me.Button3.UseVisualStyleBackColor = False
@@ -144,10 +141,9 @@ Partial Class FreshSpell
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button4.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Purple
-        Me.Button4.Location = New System.Drawing.Point(513, 26)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button4.Location = New System.Drawing.Point(770, 40)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(145, 156)
+        Me.Button4.Size = New System.Drawing.Size(218, 240)
         Me.Button4.TabIndex = 39
         Me.Button4.Text = "N"
         Me.Button4.UseVisualStyleBackColor = False
@@ -163,10 +159,9 @@ Partial Class FreshSpell
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button5.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Purple
-        Me.Button5.Location = New System.Drawing.Point(675, 26)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button5.Location = New System.Drawing.Point(1012, 40)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(145, 156)
+        Me.Button5.Size = New System.Drawing.Size(218, 240)
         Me.Button5.TabIndex = 40
         Me.Button5.Text = "A"
         Me.Button5.UseVisualStyleBackColor = False
@@ -182,10 +177,9 @@ Partial Class FreshSpell
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Yellow
         Me.Button6.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Purple
-        Me.Button6.Location = New System.Drawing.Point(840, 26)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button6.Location = New System.Drawing.Point(1260, 40)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(145, 156)
+        Me.Button6.Size = New System.Drawing.Size(218, 240)
         Me.Button6.TabIndex = 41
         Me.Button6.Text = "B"
         Me.Button6.UseVisualStyleBackColor = False
@@ -201,10 +195,9 @@ Partial Class FreshSpell
         Me.ButtM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtM.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtM.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtM.Location = New System.Drawing.Point(1321, 229)
-        Me.ButtM.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtM.Location = New System.Drawing.Point(1982, 352)
         Me.ButtM.Name = "ButtM"
-        Me.ButtM.Size = New System.Drawing.Size(115, 125)
+        Me.ButtM.Size = New System.Drawing.Size(172, 192)
         Me.ButtM.TabIndex = 54
         Me.ButtM.Text = "M"
         Me.ButtM.UseVisualStyleBackColor = False
@@ -219,10 +212,9 @@ Partial Class FreshSpell
         Me.ButtL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtL.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtL.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtL.Location = New System.Drawing.Point(1211, 229)
-        Me.ButtL.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtL.Location = New System.Drawing.Point(1816, 352)
         Me.ButtL.Name = "ButtL"
-        Me.ButtL.Size = New System.Drawing.Size(115, 125)
+        Me.ButtL.Size = New System.Drawing.Size(172, 192)
         Me.ButtL.TabIndex = 53
         Me.ButtL.Text = "L"
         Me.ButtL.UseVisualStyleBackColor = False
@@ -237,10 +229,9 @@ Partial Class FreshSpell
         Me.ButtK.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtK.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtK.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtK.Location = New System.Drawing.Point(1101, 229)
-        Me.ButtK.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtK.Location = New System.Drawing.Point(1652, 352)
         Me.ButtK.Name = "ButtK"
-        Me.ButtK.Size = New System.Drawing.Size(115, 125)
+        Me.ButtK.Size = New System.Drawing.Size(172, 192)
         Me.ButtK.TabIndex = 52
         Me.ButtK.Text = "K"
         Me.ButtK.UseVisualStyleBackColor = False
@@ -255,10 +246,9 @@ Partial Class FreshSpell
         Me.ButtJ.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtJ.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtJ.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtJ.Location = New System.Drawing.Point(991, 229)
-        Me.ButtJ.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtJ.Location = New System.Drawing.Point(1486, 352)
         Me.ButtJ.Name = "ButtJ"
-        Me.ButtJ.Size = New System.Drawing.Size(115, 125)
+        Me.ButtJ.Size = New System.Drawing.Size(172, 192)
         Me.ButtJ.TabIndex = 51
         Me.ButtJ.Text = "J"
         Me.ButtJ.UseVisualStyleBackColor = False
@@ -273,10 +263,9 @@ Partial Class FreshSpell
         Me.ButtI.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtI.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtI.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtI.Location = New System.Drawing.Point(883, 229)
-        Me.ButtI.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtI.Location = New System.Drawing.Point(1324, 352)
         Me.ButtI.Name = "ButtI"
-        Me.ButtI.Size = New System.Drawing.Size(115, 125)
+        Me.ButtI.Size = New System.Drawing.Size(172, 192)
         Me.ButtI.TabIndex = 50
         Me.ButtI.Text = "I"
         Me.ButtI.UseVisualStyleBackColor = False
@@ -291,10 +280,9 @@ Partial Class FreshSpell
         Me.ButtH.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtH.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtH.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtH.Location = New System.Drawing.Point(773, 229)
-        Me.ButtH.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtH.Location = New System.Drawing.Point(1160, 352)
         Me.ButtH.Name = "ButtH"
-        Me.ButtH.Size = New System.Drawing.Size(115, 125)
+        Me.ButtH.Size = New System.Drawing.Size(172, 192)
         Me.ButtH.TabIndex = 49
         Me.ButtH.Text = "H"
         Me.ButtH.UseVisualStyleBackColor = False
@@ -309,10 +297,9 @@ Partial Class FreshSpell
         Me.ButtG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtG.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtG.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtG.Location = New System.Drawing.Point(663, 229)
-        Me.ButtG.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtG.Location = New System.Drawing.Point(994, 352)
         Me.ButtG.Name = "ButtG"
-        Me.ButtG.Size = New System.Drawing.Size(115, 125)
+        Me.ButtG.Size = New System.Drawing.Size(172, 192)
         Me.ButtG.TabIndex = 48
         Me.ButtG.Text = "G"
         Me.ButtG.UseVisualStyleBackColor = False
@@ -327,10 +314,9 @@ Partial Class FreshSpell
         Me.ButtF.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtF.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtF.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtF.Location = New System.Drawing.Point(552, 229)
-        Me.ButtF.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtF.Location = New System.Drawing.Point(828, 352)
         Me.ButtF.Name = "ButtF"
-        Me.ButtF.Size = New System.Drawing.Size(115, 125)
+        Me.ButtF.Size = New System.Drawing.Size(172, 192)
         Me.ButtF.TabIndex = 47
         Me.ButtF.Text = "F"
         Me.ButtF.UseVisualStyleBackColor = False
@@ -345,10 +331,9 @@ Partial Class FreshSpell
         Me.ButtE.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtE.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtE.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtE.Location = New System.Drawing.Point(442, 229)
-        Me.ButtE.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtE.Location = New System.Drawing.Point(663, 352)
         Me.ButtE.Name = "ButtE"
-        Me.ButtE.Size = New System.Drawing.Size(115, 125)
+        Me.ButtE.Size = New System.Drawing.Size(172, 192)
         Me.ButtE.TabIndex = 46
         Me.ButtE.Text = "E"
         Me.ButtE.UseVisualStyleBackColor = False
@@ -363,10 +348,9 @@ Partial Class FreshSpell
         Me.ButtD.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtD.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtD.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtD.Location = New System.Drawing.Point(332, 229)
-        Me.ButtD.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtD.Location = New System.Drawing.Point(498, 352)
         Me.ButtD.Name = "ButtD"
-        Me.ButtD.Size = New System.Drawing.Size(115, 125)
+        Me.ButtD.Size = New System.Drawing.Size(172, 192)
         Me.ButtD.TabIndex = 45
         Me.ButtD.Text = "D"
         Me.ButtD.UseVisualStyleBackColor = False
@@ -381,10 +365,9 @@ Partial Class FreshSpell
         Me.ButtC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtC.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtC.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtC.Location = New System.Drawing.Point(224, 229)
-        Me.ButtC.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtC.Location = New System.Drawing.Point(336, 352)
         Me.ButtC.Name = "ButtC"
-        Me.ButtC.Size = New System.Drawing.Size(115, 125)
+        Me.ButtC.Size = New System.Drawing.Size(172, 192)
         Me.ButtC.TabIndex = 44
         Me.ButtC.Text = "C"
         Me.ButtC.UseVisualStyleBackColor = False
@@ -399,10 +382,9 @@ Partial Class FreshSpell
         Me.ButtB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtB.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtB.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtB.Location = New System.Drawing.Point(114, 229)
-        Me.ButtB.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtB.Location = New System.Drawing.Point(171, 352)
         Me.ButtB.Name = "ButtB"
-        Me.ButtB.Size = New System.Drawing.Size(115, 125)
+        Me.ButtB.Size = New System.Drawing.Size(172, 192)
         Me.ButtB.TabIndex = 43
         Me.ButtB.Text = "B"
         Me.ButtB.UseVisualStyleBackColor = False
@@ -417,10 +399,9 @@ Partial Class FreshSpell
         Me.ButtA.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtA.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtA.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtA.Location = New System.Drawing.Point(4, 229)
-        Me.ButtA.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtA.Location = New System.Drawing.Point(6, 352)
         Me.ButtA.Name = "ButtA"
-        Me.ButtA.Size = New System.Drawing.Size(115, 125)
+        Me.ButtA.Size = New System.Drawing.Size(172, 192)
         Me.ButtA.TabIndex = 42
         Me.ButtA.Text = "A"
         Me.ButtA.UseVisualStyleBackColor = False
@@ -435,10 +416,9 @@ Partial Class FreshSpell
         Me.ButtZ.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtZ.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtZ.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtZ.Location = New System.Drawing.Point(1321, 348)
-        Me.ButtZ.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtZ.Location = New System.Drawing.Point(1982, 535)
         Me.ButtZ.Name = "ButtZ"
-        Me.ButtZ.Size = New System.Drawing.Size(115, 125)
+        Me.ButtZ.Size = New System.Drawing.Size(172, 192)
         Me.ButtZ.TabIndex = 67
         Me.ButtZ.Text = "Z"
         Me.ButtZ.UseVisualStyleBackColor = False
@@ -453,10 +433,9 @@ Partial Class FreshSpell
         Me.ButtY.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtY.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtY.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtY.Location = New System.Drawing.Point(1211, 348)
-        Me.ButtY.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtY.Location = New System.Drawing.Point(1816, 535)
         Me.ButtY.Name = "ButtY"
-        Me.ButtY.Size = New System.Drawing.Size(115, 125)
+        Me.ButtY.Size = New System.Drawing.Size(172, 192)
         Me.ButtY.TabIndex = 66
         Me.ButtY.Text = "Y"
         Me.ButtY.UseVisualStyleBackColor = False
@@ -471,10 +450,9 @@ Partial Class FreshSpell
         Me.ButtX.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtX.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtX.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtX.Location = New System.Drawing.Point(1101, 348)
-        Me.ButtX.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtX.Location = New System.Drawing.Point(1652, 535)
         Me.ButtX.Name = "ButtX"
-        Me.ButtX.Size = New System.Drawing.Size(115, 125)
+        Me.ButtX.Size = New System.Drawing.Size(172, 192)
         Me.ButtX.TabIndex = 65
         Me.ButtX.Text = "X"
         Me.ButtX.UseVisualStyleBackColor = False
@@ -489,10 +467,9 @@ Partial Class FreshSpell
         Me.ButtW.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtW.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtW.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtW.Location = New System.Drawing.Point(991, 348)
-        Me.ButtW.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtW.Location = New System.Drawing.Point(1486, 535)
         Me.ButtW.Name = "ButtW"
-        Me.ButtW.Size = New System.Drawing.Size(115, 125)
+        Me.ButtW.Size = New System.Drawing.Size(172, 192)
         Me.ButtW.TabIndex = 64
         Me.ButtW.Text = "W"
         Me.ButtW.UseVisualStyleBackColor = False
@@ -507,10 +484,9 @@ Partial Class FreshSpell
         Me.ButtV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtV.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtV.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtV.Location = New System.Drawing.Point(883, 348)
-        Me.ButtV.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtV.Location = New System.Drawing.Point(1324, 535)
         Me.ButtV.Name = "ButtV"
-        Me.ButtV.Size = New System.Drawing.Size(115, 125)
+        Me.ButtV.Size = New System.Drawing.Size(172, 192)
         Me.ButtV.TabIndex = 63
         Me.ButtV.Text = "V"
         Me.ButtV.UseVisualStyleBackColor = False
@@ -525,10 +501,9 @@ Partial Class FreshSpell
         Me.ButtU.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtU.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtU.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtU.Location = New System.Drawing.Point(773, 348)
-        Me.ButtU.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtU.Location = New System.Drawing.Point(1160, 535)
         Me.ButtU.Name = "ButtU"
-        Me.ButtU.Size = New System.Drawing.Size(115, 125)
+        Me.ButtU.Size = New System.Drawing.Size(172, 192)
         Me.ButtU.TabIndex = 62
         Me.ButtU.Text = "U"
         Me.ButtU.UseVisualStyleBackColor = False
@@ -543,10 +518,9 @@ Partial Class FreshSpell
         Me.ButtT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtT.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtT.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtT.Location = New System.Drawing.Point(663, 348)
-        Me.ButtT.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtT.Location = New System.Drawing.Point(994, 535)
         Me.ButtT.Name = "ButtT"
-        Me.ButtT.Size = New System.Drawing.Size(115, 125)
+        Me.ButtT.Size = New System.Drawing.Size(172, 192)
         Me.ButtT.TabIndex = 61
         Me.ButtT.Text = "T"
         Me.ButtT.UseVisualStyleBackColor = False
@@ -561,10 +535,9 @@ Partial Class FreshSpell
         Me.ButtS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtS.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtS.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtS.Location = New System.Drawing.Point(552, 348)
-        Me.ButtS.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtS.Location = New System.Drawing.Point(828, 535)
         Me.ButtS.Name = "ButtS"
-        Me.ButtS.Size = New System.Drawing.Size(115, 125)
+        Me.ButtS.Size = New System.Drawing.Size(172, 192)
         Me.ButtS.TabIndex = 60
         Me.ButtS.Text = "S"
         Me.ButtS.UseVisualStyleBackColor = False
@@ -579,10 +552,9 @@ Partial Class FreshSpell
         Me.ButtR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtR.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtR.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtR.Location = New System.Drawing.Point(442, 348)
-        Me.ButtR.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtR.Location = New System.Drawing.Point(663, 535)
         Me.ButtR.Name = "ButtR"
-        Me.ButtR.Size = New System.Drawing.Size(115, 125)
+        Me.ButtR.Size = New System.Drawing.Size(172, 192)
         Me.ButtR.TabIndex = 59
         Me.ButtR.Text = "R"
         Me.ButtR.UseVisualStyleBackColor = False
@@ -597,10 +569,9 @@ Partial Class FreshSpell
         Me.ButtQ.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtQ.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtQ.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtQ.Location = New System.Drawing.Point(332, 348)
-        Me.ButtQ.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtQ.Location = New System.Drawing.Point(498, 535)
         Me.ButtQ.Name = "ButtQ"
-        Me.ButtQ.Size = New System.Drawing.Size(115, 125)
+        Me.ButtQ.Size = New System.Drawing.Size(172, 192)
         Me.ButtQ.TabIndex = 58
         Me.ButtQ.Text = "Q"
         Me.ButtQ.UseVisualStyleBackColor = False
@@ -615,10 +586,9 @@ Partial Class FreshSpell
         Me.ButtP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtP.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtP.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtP.Location = New System.Drawing.Point(224, 348)
-        Me.ButtP.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtP.Location = New System.Drawing.Point(336, 535)
         Me.ButtP.Name = "ButtP"
-        Me.ButtP.Size = New System.Drawing.Size(115, 125)
+        Me.ButtP.Size = New System.Drawing.Size(172, 192)
         Me.ButtP.TabIndex = 57
         Me.ButtP.Text = "P"
         Me.ButtP.UseVisualStyleBackColor = False
@@ -633,10 +603,9 @@ Partial Class FreshSpell
         Me.ButtO.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtO.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtO.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtO.Location = New System.Drawing.Point(114, 348)
-        Me.ButtO.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtO.Location = New System.Drawing.Point(171, 535)
         Me.ButtO.Name = "ButtO"
-        Me.ButtO.Size = New System.Drawing.Size(115, 125)
+        Me.ButtO.Size = New System.Drawing.Size(172, 192)
         Me.ButtO.TabIndex = 56
         Me.ButtO.Text = "O"
         Me.ButtO.UseVisualStyleBackColor = False
@@ -651,19 +620,19 @@ Partial Class FreshSpell
         Me.ButtN.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ButtN.Font = New System.Drawing.Font("Calibri", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtN.ForeColor = System.Drawing.Color.Lavender
-        Me.ButtN.Location = New System.Drawing.Point(4, 348)
-        Me.ButtN.Margin = New System.Windows.Forms.Padding(2)
+        Me.ButtN.Location = New System.Drawing.Point(6, 535)
         Me.ButtN.Name = "ButtN"
-        Me.ButtN.Size = New System.Drawing.Size(115, 125)
+        Me.ButtN.Size = New System.Drawing.Size(172, 192)
         Me.ButtN.TabIndex = 55
         Me.ButtN.Text = "N"
         Me.ButtN.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(590, 580)
+        Me.TextBox1.Location = New System.Drawing.Point(885, 892)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(119, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(176, 26)
         Me.TextBox1.TabIndex = 68
         Me.TextBox1.Visible = False
         '
@@ -677,19 +646,21 @@ Partial Class FreshSpell
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(378, 556)
+        Me.ProgressBar1.Location = New System.Drawing.Point(567, 855)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ProgressBar1.Maximum = 10000
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(115, 43)
+        Me.ProgressBar1.Size = New System.Drawing.Size(172, 66)
         Me.ProgressBar1.TabIndex = 78
         Me.ProgressBar1.Visible = False
         '
         'progressLoop
         '
-        Me.progressLoop.Location = New System.Drawing.Point(1391, 547)
+        Me.progressLoop.Location = New System.Drawing.Point(2086, 842)
+        Me.progressLoop.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.progressLoop.Maximum = 10000
         Me.progressLoop.Name = "progressLoop"
-        Me.progressLoop.Size = New System.Drawing.Size(115, 43)
+        Me.progressLoop.Size = New System.Drawing.Size(172, 66)
         Me.progressLoop.TabIndex = 80
         Me.progressLoop.Value = 1
         Me.progressLoop.Visible = False
@@ -697,9 +668,10 @@ Partial Class FreshSpell
         'picBird8
         '
         Me.picBird8.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird8.Location = New System.Drawing.Point(1215, 491)
+        Me.picBird8.Location = New System.Drawing.Point(1822, 755)
+        Me.picBird8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird8.Name = "picBird8"
-        Me.picBird8.Size = New System.Drawing.Size(115, 125)
+        Me.picBird8.Size = New System.Drawing.Size(172, 192)
         Me.picBird8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird8.TabIndex = 76
         Me.picBird8.TabStop = False
@@ -708,9 +680,10 @@ Partial Class FreshSpell
         'picBird7
         '
         Me.picBird7.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird7.Location = New System.Drawing.Point(1105, 491)
+        Me.picBird7.Location = New System.Drawing.Point(1658, 755)
+        Me.picBird7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird7.Name = "picBird7"
-        Me.picBird7.Size = New System.Drawing.Size(115, 125)
+        Me.picBird7.Size = New System.Drawing.Size(172, 192)
         Me.picBird7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird7.TabIndex = 75
         Me.picBird7.TabStop = False
@@ -719,9 +692,10 @@ Partial Class FreshSpell
         'picBird6
         '
         Me.picBird6.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird6.Location = New System.Drawing.Point(995, 491)
+        Me.picBird6.Location = New System.Drawing.Point(1492, 755)
+        Me.picBird6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird6.Name = "picBird6"
-        Me.picBird6.Size = New System.Drawing.Size(115, 125)
+        Me.picBird6.Size = New System.Drawing.Size(172, 192)
         Me.picBird6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird6.TabIndex = 74
         Me.picBird6.TabStop = False
@@ -730,9 +704,10 @@ Partial Class FreshSpell
         'picBird5
         '
         Me.picBird5.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird5.Location = New System.Drawing.Point(887, 491)
+        Me.picBird5.Location = New System.Drawing.Point(1330, 755)
+        Me.picBird5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird5.Name = "picBird5"
-        Me.picBird5.Size = New System.Drawing.Size(115, 125)
+        Me.picBird5.Size = New System.Drawing.Size(172, 192)
         Me.picBird5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird5.TabIndex = 73
         Me.picBird5.TabStop = False
@@ -741,9 +716,10 @@ Partial Class FreshSpell
         'picBird4
         '
         Me.picBird4.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird4.Location = New System.Drawing.Point(777, 491)
+        Me.picBird4.Location = New System.Drawing.Point(1166, 755)
+        Me.picBird4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird4.Name = "picBird4"
-        Me.picBird4.Size = New System.Drawing.Size(115, 125)
+        Me.picBird4.Size = New System.Drawing.Size(172, 192)
         Me.picBird4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird4.TabIndex = 72
         Me.picBird4.TabStop = False
@@ -752,9 +728,10 @@ Partial Class FreshSpell
         'picBird3
         '
         Me.picBird3.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird3.Location = New System.Drawing.Point(4, 360)
+        Me.picBird3.Location = New System.Drawing.Point(6, 554)
+        Me.picBird3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird3.Name = "picBird3"
-        Me.picBird3.Size = New System.Drawing.Size(115, 125)
+        Me.picBird3.Size = New System.Drawing.Size(172, 192)
         Me.picBird3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird3.TabIndex = 71
         Me.picBird3.TabStop = False
@@ -763,9 +740,10 @@ Partial Class FreshSpell
         'picBird2
         '
         Me.picBird2.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird2.Location = New System.Drawing.Point(26, 491)
+        Me.picBird2.Location = New System.Drawing.Point(39, 755)
+        Me.picBird2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird2.Name = "picBird2"
-        Me.picBird2.Size = New System.Drawing.Size(150, 125)
+        Me.picBird2.Size = New System.Drawing.Size(225, 192)
         Me.picBird2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird2.TabIndex = 70
         Me.picBird2.TabStop = False
@@ -774,9 +752,10 @@ Partial Class FreshSpell
         'picBird
         '
         Me.picBird.Image = Global.WindowsApplication1.My.Resources.Resources.bird1
-        Me.picBird.Location = New System.Drawing.Point(159, 348)
+        Me.picBird.Location = New System.Drawing.Point(238, 535)
+        Me.picBird.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.picBird.Name = "picBird"
-        Me.picBird.Size = New System.Drawing.Size(225, 181)
+        Me.picBird.Size = New System.Drawing.Size(338, 278)
         Me.picBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picBird.TabIndex = 69
         Me.picBird.TabStop = False
@@ -784,9 +763,9 @@ Partial Class FreshSpell
         '
         'FreshSpell
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1601, 625)
+        Me.ClientSize = New System.Drawing.Size(2142, 962)
         Me.Controls.Add(Me.progressLoop)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.picBird8)
@@ -830,6 +809,7 @@ Partial Class FreshSpell
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button6)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FreshSpell"
         Me.Text = "FreshSpell"
         CType(Me.picBird8, System.ComponentModel.ISupportInitialize).EndInit()

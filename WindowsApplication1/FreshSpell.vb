@@ -219,7 +219,7 @@
                 Exit Sub
         End Select
         vSec = vLoop
-        vLoop += 1
+        ' vLoop += 1
         vCount = 0
         vExit = False
 
@@ -245,6 +245,7 @@
                 PlayWav(btnBigNext.Text)                           'and plays "Find the letter ___"
                 drag = True
                 'Threading.Thread.Sleep(2100) 'delay to allow the Tada time to play
+                vLoop += 1
             Else
                 Winner()    'or the last letter has been matched
             End If
@@ -351,10 +352,10 @@
             vWav = "C:\aaCode\" & tRound & "Points" & ".Wav"
             My.Computer.Audio.Play(vWav)
 
-            'If My.Forms.MenuSpelling.tb6.Tag = "On" Then  'if the last text box in the "progress
-            '    My.Forms.MenuSpelling.OvalShape1.Visible = True  'the tip of the "thermometer"
-            '    PlayWav("Surprise")
-            'End If
+            If My.Forms.MenuSpelling.tb6.Tag = "On" Then  'if the last text box in the "progress
+                My.Forms.MenuSpelling.OvalShape1.Visible = True  'the tip of the "thermometer"
+                PlayWav("Surprise")
+            End If
         End If
 
         Select Case birdCount
@@ -449,6 +450,10 @@
 
         End Select
         ' End While
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
     End Sub
 
     Public Sub PlayWav(fLetter As String)
