@@ -14,9 +14,9 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>\\ACER2017\aaCode\</PublishUrl>
+    <PublishUrl>C:\aaCode\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Unc</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -25,9 +25,8 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/WindowsApplication1/</UpdateUrl>
-    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>26</ApplicationRevision>
+    <ApplicationRevision>28</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -150,6 +149,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RevealLetter.Designer.vb">
+      <DependentUpon>RevealLetter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevealLetter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SelectGame.Designer.vb">
       <DependentUpon>SelectGame.vb</DependentUpon>
     </Compile>
@@ -185,6 +190,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevealLetter.resx">
+      <DependentUpon>RevealLetter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SelectGame.resx">
       <DependentUpon>SelectGame.vb</DependentUpon>
@@ -297,6 +305,7 @@
     <None Include="Resources\Banana.jpg" />
     <Content Include="Resources\BUni.JPG" />
     <Content Include="Resources\Henr.JPG" />
+    <None Include="Resources\IMG_0655.JPG" />
     <Content Include="Resources\Jenn.JPG" />
     <None Include="Resources\PuppyDog.jpg" />
     <None Include="Resources\OldBlue.JPG" />

@@ -1,5 +1,7 @@
-﻿Public Class DrawLetters
+﻿Imports System.Windows.Forms
+Public Class DrawLetters
     Dim shouldPaint As Boolean = False
+    Dim hovering As String = "off"
 
     Private Sub DrawLetters_Load(sender As Object, e As EventArgs) Handles Me.Load, TextBox1.MouseEnter
 
@@ -7,13 +9,19 @@
 
     Private Sub DrawLetters_MouseMove(sender As Object, e As MouseEventArgs) Handles Me.MouseMove
         If shouldPaint Then
+            'If MousePosition.X < 300 Then
             Dim vGraphics As Graphics = CreateGraphics()
-            vGraphics.FillEllipse(New SolidBrush(Color.BlueViolet), e.X, e.Y, 22, 22)
+            vGraphics.FillEllipse(New SolidBrush(Color.BlueViolet), e.X, e.Y, 12, 12)
+            'End If
         End If
     End Sub
 
     Private Sub DrawLetters_MouseDown(sender As Object, e As MouseEventArgs) Handles Me.MouseDown
+        ' If MouseIsOverControl(LineShape1) = False Then
+        ' If MousePosition.X < 300 Then
         shouldPaint = True
+
+        'End If
     End Sub
 
     Private Sub DrawLetters_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
@@ -57,6 +65,14 @@
         'End If
         'EnableDisableAll(True)
     End Sub
+    Private Sub PictureBox1_MouseHover(ByVal sender As Object, ByVal e As System.EventArgs)
+        hovering = "on"
+    End Sub
 
-
+    Private Sub PictureBox1_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs)
+        hovering = "off"
+    End Sub
+    Public Function MouseIsOverControl(ByVal c As Control) As Boolean
+        Return c.ClientRectangle.Contains(c.PointToClient(Control.MousePosition))
+    End Function
 End Class

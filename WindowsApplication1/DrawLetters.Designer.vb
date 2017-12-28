@@ -30,11 +30,7 @@ Partial Class DrawLetters
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -59,12 +55,12 @@ Partial Class DrawLetters
         '
         'TextBox9
         '
-        Me.TextBox9.BackColor = System.Drawing.SystemColors.MenuText
+        Me.TextBox9.BackColor = System.Drawing.SystemColors.HighlightText
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox9.Location = New System.Drawing.Point(121, 82)
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(410, 143)
+        Me.TextBox9.Size = New System.Drawing.Size(217, 143)
         Me.TextBox9.TabIndex = 65
         '
         'TextBox12
@@ -84,17 +80,17 @@ Partial Class DrawLetters
         Me.TextBox13.Location = New System.Drawing.Point(213, 222)
         Me.TextBox13.Multiline = True
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(318, 209)
+        Me.TextBox13.Size = New System.Drawing.Size(125, 209)
         Me.TextBox13.TabIndex = 69
         '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.SystemColors.MenuText
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox3.Location = New System.Drawing.Point(80, -1)
+        Me.TextBox3.Location = New System.Drawing.Point(80, 204)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(541, 87)
+        Me.TextBox3.Size = New System.Drawing.Size(258, 87)
         Me.TextBox3.TabIndex = 70
         '
         'ShapeContainer1
@@ -102,67 +98,24 @@ Partial Class DrawLetters
         Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape1, Me.OvalShape1, Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(868, 431)
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(818, 432)
         Me.ShapeContainer1.TabIndex = 71
         Me.ShapeContainer1.TabStop = False
         '
-        'LineShape1
-        '
-        Me.LineShape1.BorderWidth = 10
-        Me.LineShape1.Name = "LineShape1"
-        Me.LineShape1.X1 = 624
-        Me.LineShape1.X2 = 527
-        Me.LineShape1.Y1 = 88
-        Me.LineShape1.Y2 = 223
-        '
-        'OvalShape1
-        '
-        Me.OvalShape1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.OvalShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
-        Me.OvalShape1.BorderWidth = 10
-        Me.OvalShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.OvalShape1.Location = New System.Drawing.Point(694, 283)
-        Me.OvalShape1.Name = "OvalShape1"
-        Me.OvalShape1.Size = New System.Drawing.Size(74, 81)
-        '
         'RectangleShape1
         '
-        Me.RectangleShape1.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Augi
+        Me.RectangleShape1.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.IMG_0655
         Me.RectangleShape1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.RectangleShape1.BorderWidth = 10
-        Me.RectangleShape1.CornerRadius = 10
-        Me.RectangleShape1.Location = New System.Drawing.Point(654, 37)
+        Me.RectangleShape1.Location = New System.Drawing.Point(377, 39)
         Me.RectangleShape1.Name = "RectangleShape1"
-        Me.RectangleShape1.Size = New System.Drawing.Size(88, 97)
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(527, 21)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(52, 143)
-        Me.TextBox2.TabIndex = 72
-        '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox4.Location = New System.Drawing.Point(604, 188)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(52, 143)
-        Me.TextBox4.TabIndex = 73
+        Me.RectangleShape1.Size = New System.Drawing.Size(426, 356)
         '
         'DrawLetters
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(868, 431)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox2)
+        Me.ClientSize = New System.Drawing.Size(818, 432)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox13)
         Me.Controls.Add(Me.TextBox12)
@@ -185,8 +138,4 @@ Partial Class DrawLetters
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
     Friend WithEvents RectangleShape1 As PowerPacks.RectangleShape
-    Friend WithEvents OvalShape1 As PowerPacks.OvalShape
-    Friend WithEvents LineShape1 As PowerPacks.LineShape
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox4 As TextBox
 End Class
